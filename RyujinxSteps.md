@@ -14,5 +14,5 @@ Remember that you will need 2 versions (the old one and the new one) and if you 
 ![imagen](https://github.com/StevensND/ghidra-port-mods-guide/assets/45856578/665c9901-3e16-4284-93bc-4acc619d7814)
 ![imagen](https://github.com/StevensND/ghidra-port-mods-guide/assets/45856578/2a30314f-086e-4e1a-9b50-30461bda7baf)
 
-[CLICK HERE to continue with the guide](https://github.com/StevensND/ghidra-port-mods-guide/tree/main)
+[CLICK HERE to continue with the guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/SetupGhidra.md)
 
