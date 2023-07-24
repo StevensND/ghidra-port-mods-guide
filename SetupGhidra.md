@@ -18,6 +18,10 @@ Once you have everything set up, **find the folder** where you extracted the Exe
 
 Now open the corresponding main in Ghidra. The first time you will get a window asking to analyze the code. Analyze it. A new popup window will appear. Leave all options as they are by default and click on Analyze.
 
+If you didn't see the pop-up window asking you for analyze or if you closed it by mistake or clicked No, go to Analysis (next to File and Edit) and click Auto Analyze. Alternatively you can directly press the "A" key on your keyboard.
+
+![imagen](https://i.gyazo.com/569331826e9dd197b7b7dd78234a2f7d.png)
+
 Let Ghidra analyze the file (as I said before this may take a little or a lot of time depending on the game and the update) so do something else in the meantime and be patient. 
 
 You will know it's finished when you see undefined (1) at the bottom right and no more analysis is being done. **PLEASE ANALYZE ALL THE MAIN FILES REQUIRED before proceeding**. For the next steps I assume you have already done this.
