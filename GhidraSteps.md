@@ -52,7 +52,7 @@ Do it in order as Ghidra shows you. That is to say:
 
 `df 02 00 94 80 02 00 36`
 
-If you do not find a result, discard these options and use the next 2. You have to keep trying to reduce the results as much as possible. For my example: `Address: 710194EA7C`
+If you don't find a result, discard these options and use the next 2. You have to keep trying to reduce the results as much as possible. For my example: `Address: 710194EA7C`
 
 I had to use all these "Memory": `fd 7b be a9 f3 0b 00 f9 fd 03 00 91 08 00 5f 39` instead
 
