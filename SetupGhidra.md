@@ -6,13 +6,13 @@
 2.	Get [SwitchLoader](https://github.com/StevensND/Ghidra-Switch-Loader/releases) and place it somewhere you can find it easily. Don’t unzip it. It’s not neccesary. Remember to install Java JDK too.
 3.	On Ghidra click on File -> Install Extensions and click on the "+ icon". Search for the .zip file (SwitchLoader) and click on OK and install it. It should look like this:
 
-![imagen](https://github.com/StevensND/ghidra-port-mods-guide/assets/45856578/638c81b0-47e0-4ec2-816a-cb542af1d6a1)
+![imagen](https://i.imgur.com/yP6sQ04.png)
 
 4.	Create a project: Click on File -> New Project. Click on Next and then select where you want to save your project. Put a name's project and click on Finish.
    
 5.	I suggest you create a New Folder (Right click -> New Folder). We will do this to better organize ourselves. You can create a general folder called "TOTK" for example and then subfolders according to the version we are going to use. This will also allow us to open several Ghidra tabs. Otherwise we will only be able to have 1 tab open.
 
-![imagen](https://github.com/StevensND/ghidra-port-mods-guide/assets/45856578/1027f03c-5ba7-4a31-b674-ab4885b50312)
+![imagen](https://i.imgur.com/B0Wx1U4.png)
 
 Once you have everything set up, **find the folder** where you extracted the ExeFS files and **drag the file named main** to the corresponding folder. A window will pop up (this is the SwitchLoader extension). Just accept and continue.
 
@@ -22,6 +22,6 @@ Let Ghidra analyze the file (as I said before this may take a little or a lot of
 
 You will know it's finished when you see undefined (1) at the bottom right and no more analysis is being done. **PLEASE ANALYZE ALL THE MAIN FILES REQUIRED before proceeding**. For the next steps I assume you have already done this.
 
-![imagen](https://github.com/StevensND/ghidra-port-mods-guide/assets/45856578/835528ef-9f44-41bf-b9ed-8deac585c6a8)
+![imagen](https://i.imgur.com/WtpFX1M.png)
 
 [CLICK HERE to continue with the guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/GhidraSteps.md)
