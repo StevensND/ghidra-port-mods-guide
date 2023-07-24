@@ -60,5 +60,7 @@ This gave me 2 results. Sometimes you will not find the corresponding "Memory" b
 
 ![imagen](https://i.gyazo.com/f163f4b9d7326b8c9a4ef2f6e61da47b.png)
 
+[Video Guide by Father Of Egg HERE](https://youtu.be/JMrX4TQUFl0)
+
 [CLICK HERE to continue with the final steps](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/GhidraFinalSteps.md)
 
