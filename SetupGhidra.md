@@ -3,7 +3,11 @@
 **DISCLAIMER**: "->" means click on
 
 1.	[Download Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases). Unzip it. Open the unzipped folder and search for ghidraRun.bat (if you don’t know how to see files extensions go to the top of your folder tab and then click on View. Then click on Extensions checkbox). Run ghidraRun.bat.
+
+![imagen](https://i.gyazo.com/204fc945610c663fedfc4c3d0741bc7c.png)
+
 2.	Get [SwitchLoader](https://github.com/StevensND/Ghidra-Switch-Loader/releases) and place it somewhere you can find it easily. Don’t unzip it. It’s not neccesary. Remember to install Java JDK too.
+   
 3.	On Ghidra click on File -> Install Extensions and click on the "+ icon". Search for the .zip file (SwitchLoader) and click on OK and install it. It should look like this:
 
 ![imagen](https://i.imgur.com/yP6sQ04.png)
