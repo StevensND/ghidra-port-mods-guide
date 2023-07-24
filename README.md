@@ -16,3 +16,10 @@
   If you don't have much time I would recommend starting with a game like ...  ToZ: Link's Awakening. You can find the [mods here](https://yuzu-emu.org/wiki/switch-mods/) (Press Control F on your keyboard and search for Awakening).
 
   [CLICK HERE TO START the guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/RyujinxSteps.md)
+
+  # Special Thanks to:
+
+  [Father Of Egg](https://www.reddit.com/user/Father_Of_Egg) for teaching me how to use Ghidra + basic concepts.
+  [PixelKiri](https://www.reddit.com/user/PixelKiri) for update SwitchLoader and make it compatible with latest Ghidra updates.
+  [ChanseyIsTheBest](https://gbatemp.net/members/chanseyisthebest.608269/) for GBATemp tutorials
+  [Fruithapje21](https://www.reddit.com/r/totkmods/comments/149lpz5/comment/jriqx7f/?context=3) for Aspect Ratio GDB + Ghidra Guide
