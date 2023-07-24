@@ -8,7 +8,7 @@ Click on each of the results that the Search Memory tab gave you and look for a 
 
 Click on the image below and zoom it. Left side it's 1.1.2 and right side it's 1.2.0
 
-![imagen](https://github.com/StevensND/ghidra-port-mods-guide/assets/45856578/573e80df-3261-4c62-978f-66f8bf9b8ee6)
+![imagen](https://i.imgur.com/XixhSgr.png)
 
 What does this mean?: That we have found our equivalent code for the new version (1.2.0) and we know that this would be the one we should test first before proceeding with another search and another try. So let’s focus on the FUN section (FUN_710193e484).
 
@@ -34,23 +34,23 @@ Open it  and focus on the left corner. Look at 00000040 and 00000050 lines. Get 
 
 Here's an example:
 
-![imagen](https://github.com/StevensND/ghidra-port-mods-guide/assets/45856578/3ac2c63d-96b9-41ee-bfb3-177adeac318f)
+![imagen](https://i.imgur.com/smeExqe.png)
 
 For TOTK 1.2.0 it would be: `@nsobid-6F32C68DD3BC7D77AA714B80E92A096A737CDA77`
 
 So … our .pchtxt file should look like this:
 
-![imagen](https://github.com/StevensND/ghidra-port-mods-guide/assets/45856578/96f56de7-27c2-45b0-840f-58badab213d0)
+![imagen](https://i.imgur.com/NqhxhEE.png)
 
 You can add a line between @flag offset_shift 0x100 and @enable just for info like I did on the screenshot above
 
 And that's it!!. Save the file. Name it 1.2.0 or whatever update it is (be sure the file has .pchtxt extension) and place it into your mods folder. You would already have your mod updated.
 
-![imagen](https://github.com/StevensND/ghidra-port-mods-guide/assets/45856578/81686581-acff-4e9d-a7a9-1966670155da)
+![imagen](https://i.imgur.com/YiLWY63.png)
 
-![imagen](https://github.com/StevensND/ghidra-port-mods-guide/assets/45856578/79705630-b656-45c4-99e5-f29de1ca0afe)
+![imagen](https://i.imgur.com/hxXzGlO.png)
 
-![imagen](https://github.com/StevensND/ghidra-port-mods-guide/assets/45856578/fe3fa0e4-c103-49c1-b014-e45d9853028b)
+![imagen](https://i.imgur.com/dD4ncbq.png)
 
 I hope everything is clear and if you have any questions you can ask me on [Reddit](https://www.reddit.com/user/StevenssND). 
 
