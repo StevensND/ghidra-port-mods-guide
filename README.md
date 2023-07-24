@@ -23,3 +23,5 @@
 - [PixelKiri](https://www.reddit.com/user/PixelKiri) for update SwitchLoader and make it compatible with latest Ghidra updates.
 - [ChanseyIsTheBest](https://gbatemp.net/members/chanseyisthebest.608269/) for GBATemp tutorials + some useful [Python Scripts](https://github.com/ChanseyIsTheBest/NX-60FPS-RES-GFX-Cheats)
 - [Fruithapje21](https://www.reddit.com/r/totkmods/comments/149lpz5/comment/jriqx7f/?context=3) for Aspect Ratio GDB + Ghidra Guide
+
+If you want to say thanks for the guide and support me, here's my [Ko-Fi](https://ko-fi.com/stevenss)
