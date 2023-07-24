@@ -15,4 +15,4 @@
 
   If you don't have much time I would recommend starting with a game like ...  ToZ: Link's Awakening. You can find the [mods here](https://yuzu-emu.org/wiki/switch-mods/) (Press Control F on your keyboard and search for Awakening).
 
-  [Click here to start the guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/RyujinxSteps.md)
+  [CLICK HERE TO START the guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/RyujinxSteps.md)
