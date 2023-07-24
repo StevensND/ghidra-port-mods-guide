@@ -20,7 +20,7 @@ Now open the corresponding main in Ghidra. The first time you will get a window 
 
 Let Ghidra analyze the file (as I said before this may take a little or a lot of time depending on the game and the update) so do something else in the meantime and be patient. 
 
-You will know it's finished when you see undefined (1) at the bottom right and no more analysis is being done.
+You will know it's finished when you see undefined (1) at the bottom right and no more analysis is being done. **PLEASE ANALYZE ALL THE MAIN FILES REQUIRED before proceeding**. For the next steps I assume you have already done this.
 
 ![imagen](https://github.com/StevensND/ghidra-port-mods-guide/assets/45856578/835528ef-9f44-41bf-b9ed-8deac585c6a8)
 
