@@ -69,6 +69,13 @@ The first line: `080E0000 02B0AFC8 176D734F F9400008` has been splitted and conv
 040E0000 02B0AFC8 F9400008
 040E0000 02B0AFCC 176D734F
  ```
+
+We have replaced 080E0000 by 040E0000 and divided our Address in 2: `02B0AFC8` and `02B0AFCC`. The way we get `02B0AFCC` is by adding 4 to 02B0AFC8 (to do this use the Windows calculator in Programmer Mode and make sure to select Hex). So ... `02B0AFC8 + 4` = `02B0AFCC`
+
+![Screenshot](https://i.gyazo.com/c937db3bbfbc61a5e556fa734111da76.png)
+
+Keep in mind Windows calculator ignore 0's so if you miss one 0 just add it. The rest is done automatically by Interactive-ASM-Cheats-Updater and makes it easy for you.
+
 This will also be the case for all other lines starting with 080E0000. So next will be:
 
 ```
@@ -82,6 +89,7 @@ And finally we have the lines that do not need to be split or converted.
 040E0000 00667D04 14928CAE
 ```
 
+
 3. Finally do the reverse as I explained before, ignore `040E0000` and do the exefs mod structure as I explained [here](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/GhidraFinalSteps.md): Get the nsboid etc etc and don't forget to place the mod into your mods folder directory.
 
 The mod should look similar to this:
@@ -90,4 +98,4 @@ The mod should look similar to this:
 
 Do a test and check if it work or not and enjoy. If you want to update the mod in the future you can use Ghidra and follow this [guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/RyujinxSteps.md) or maybe try to use Interactive-ASM-Cheats-Updater
 
-**DISCLAIMER**: Interactive-ASM-Cheats-Updater might not work all the time. Sometimes it can ignore and miss one line of the entire code so check if it's something missing. If you miss something update/port the mod using Ghidra
+**DISCLAIMER**: Interactive-ASM-Cheats-Updater might not work all the time. Sometimes it can ignore and miss one line of the entire code or just ignore all the cheat and only make 1 change (for instance: you can't use Interactive-ASM-Cheats-Updater directly to update/port cheats starting at 080E0000) so check if it's something missing. If you miss something update/port the mod using Ghidra
