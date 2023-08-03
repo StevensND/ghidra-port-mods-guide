@@ -70,7 +70,7 @@ The first line: `080E0000 02B0AFC8 176D734F F9400008` has been splitted and conv
 040E0000 02B0AFCC 176D734F
  ```
 
-We have replaced 080E0000 by 040E0000 and divided our Address in 2: `02B0AFC8` and `02B0AFCC`. The way we get `02B0AFCC` is by adding 4 to 02B0AFC8 (to do this use the Windows calculator in Programmer Mode and make sure to select Hex). So ... `02B0AFC8 + 4` = `02B0AFCC`
+We have replaced 080E0000 by 040E0000 and divided our Address in 2: `02B0AFC8` (main address: this is the original address in `080E0000 02B0AFC8 176D734F F9400008`) and `02B0AFCC` (second address). The way we get `02B0AFCC` is by adding 4 to 02B0AFC8 (to do this use the Windows calculator in Programmer Mode and make sure to select Hex). So ... `02B0AFC8 + 4` = `02B0AFCC`
 
 ![Screenshot](https://i.gyazo.com/c937db3bbfbc61a5e556fa734111da76.png)
 
