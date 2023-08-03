@@ -8,4 +8,4 @@
 - [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) or any other Hex Editor like [this one](https://hexed.it/) (online version)
 - [NotePad++](https://notepad-plus-plus.org/downloads/) It's not really necessary but IMO it's more convenient compared to Windows Notepad
 -	**Update the cheat was developed for**
--	**Update you want to upgrade to**
+-	**Any other update (we will use it as a bypass**
