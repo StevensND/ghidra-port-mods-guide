@@ -2,6 +2,8 @@
 
 We want to be able to convert a cheat in .txt or .ips format to .pchtxt and make a mod (exefs in this case). This may or may not be useful depending on whether the cheat is often updated. There is really no need to have a mod in .pchtxt (exefs) if the cheat already exists.
 
+Btw, here's more info about [Cheat Code Format](https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/cheats.md#cheat-code-format)
+
 ### Easy Steps
 
 1. Get all files required [here](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Cheat%20to%20.pchtxt/Files%20Required)
