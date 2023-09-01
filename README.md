@@ -17,7 +17,7 @@
 
   [CLICK HERE TO START the Ghidra guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/RyujinxSteps.md)
 
-- [Converting cheats to .pchtxt guide](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Cheat%20to%20.pchtxt) | [How to update Switch mods or cheats using Interactive ASM Cheats Updater](https://youtu.be/jTJYpuG-9Ek?si=FfoiGiyC-uPgjxiA). These two guides are more or less related so I advise you to watch both for a better understanding.
+- [Converting cheats to .pchtxt guide](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Cheat%20to%20.pchtxt) | [How to update Switch mods or cheats using Interactive ASM Cheats Updater Video](https://youtu.be/jTJYpuG-9Ek?si=FfoiGiyC-uPgjxiA). These two guides are more or less related so I advise you to watch both for a better understanding.
   # Special Thanks to:
 
 - [Father Of Egg](https://www.reddit.com/user/Father_Of_Egg) for teaching me how to use Ghidra + basic concepts.
