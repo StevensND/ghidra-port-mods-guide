@@ -2,15 +2,19 @@
 
 We want to update a .pchtxt mod or a cheat which is outdated to the latest version available using Code Updater for Nintendo Switch.
 
-To do this, we will need to convert our .pchtxt or .ips file to a cheat format (.txt) and use Code Updater for Nintendo Switch to update it. Finally, we'll do the opposite: We will convert the cheat to .pchtxt format.
+To do this, we will need to convert our .pchtxt or .ips file to a cheat format (.txt) and use Code Updater for Nintendo Switch to update it. Finally, we'll do the opposite: We will convert the cheat to .pchtxt format again.
 
 Btw, here's more info about [Cheat Code Format](https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/cheats.md#cheat-code-format)
 
 ### Steps
 
-Before starting this guide, I suggest you read this other guide to better understand what we are going to do. Let's start:
+Before starting this guide, I suggest you read [this other guide](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Code%20Updater%20for%20Nintendo%20Switch/Cheat%20to%20.pchtxt) to better understand what we are going to do. Let's start:
 
-1. Get all files required [here](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Cheat%20to%20.pchtxt/Files%20Required)
+Also I suggest you [watch this video](https://youtu.be/jTJYpuG-9Ek?si=fW0TVuG50KCSmsts). **It's very important to read the video description** to understand the context of this video.
+
+This is the video guide for this guide. It is explained in a way that is perhaps a bit quick and not very well structured in my opinion, but it will serve as a visual guide in case you get lost in the process.
+
+1. Get all files required [here](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Code%20Updater%20for%20Nintendo%20Switch/Updating%20.pchtxt%20mods%20or%20cheats%20using%20this%20tool/Files%20Required)
 2. Extract the ExeFS files as shown [here](https://youtu.be/d1XWoEgAgrU?t=78). We need the main file. Do this for the update in which the mod/cheat was developed and another update as I told you in Files Required. If you need to know the BuildID, [check this](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/RyujinxSteps.md)
 3. If the mod/cheat is in .ips format instead of .txt: Drag the .ips file onto ips+pchtxt2cheat.py. It will automatically generate the .txt file you need.
 
@@ -22,7 +26,7 @@ Before starting this guide, I suggest you read this other guide to better unders
 
 Look at the structure. This is quite similar to what I explain in [step 1 of this guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/GhidraSteps.md).
 
-To convert the .pchtxt to cheat we will have to reverse the `21008052 and C0035FD6` using hexreverser.py ... So run hexreverser.py (Remember to have Python installed).
+To convert the .pchtxt to cheat we will have to reverse `21008052 and C0035FD6` using hexreverser.py ... So run hexreverser.py (Remember to have Python installed).
 
 5. Type/copy & paste the instructions. In my case `21008052 and C0035FD6`. If you have more lines keep entering values. Once you are done type "pause" and all results will be printed.
 
@@ -56,7 +60,7 @@ Paste your cheat into `Input Old Codes` and click on `Generate` wait until the c
 
 ![image](https://i.gyazo.com/5addfe7595e7011b2e91fbe3c64f61fd.png) 
 
-Now all you need to do is find the BID and create a new .txt file with the cheat inside this file and name it `BID`.txt
+Now all you need to do is find the new BID for the new update and create a new .txt file with the cheat inside this file and name it `NewBID`.txt replacing NewBID with the new numbers and letters.
 
 ### Continue updating the .pchtxt mod
 
@@ -104,9 +108,11 @@ https://linktr.ee/stevenssv2
 https://github.com/StevensND/switch-port-mods
 ```
 
+From the cheat I have ignored `04000000`  and I have kept the instructions I had in the first place (21008052 and C0035FD6) as these didn't need to be changed or updated.
+
 And that's all, mod updated using Code Updater for Nintendo Switch.
 
-**KEEP IN MIND** Code Updater for Nintendo Switch not always works as expected. It may fail and freeze or crash or simply can't update the mod. Apart from this, keep in mind the structure of the cheats.
+**KEEP IN MIND**: Code Updater for Nintendo Switch not always works as expected. It may fail and freeze or crash or simply can't update the mod. Apart from this, keep in mind the structure of the cheats.
 
 If your cheat is like: 
 
@@ -129,4 +135,4 @@ If your cheat is like:
 640F0000 00000000 00000000
 ```
 
-You can't update it using Code Updater for Nintendo Switch
+You can't update it using Code Updater for Nintendo Switch.
