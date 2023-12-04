@@ -7,13 +7,13 @@ Btw, here's more info about [Cheat Code Format](https://github.com/Atmosphere-NX
 ### Easy Steps
 
 1. Get all files required [here](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Cheat%20to%20.pchtxt/Files%20Required)
-2. Extract the ExeFS files as shown [here](https://youtu.be/d1XWoEgAgrU?t=78). We need the main file. Do this for the update in which the cheat was developed and another update as I told you in Files Required.
+2. Extract the ExeFS files as shown [here](https://youtu.be/d1XWoEgAgrU?t=78). We need the main file. Do this for the update in which the cheat was developed and another update as I told you in Files Required. If you need to know the BuildID, [check this](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/RyujinxSteps.md)
 3. If the cheat is in .ips format instead of .txt: Drag the .ips file onto ips+pchtxt2cheat.py. It will automatically generate the .txt file you need.
 4. Open the .txt file and you will see something like this:
 
 ![Screenshot](https://i.gyazo.com/9a290620fa370743b05b6547f944b39d.png)
 
-Note the structure. We have 3 columns. This is what we will call a "simple cheat".
+Look at the structure. We have 3 columns. This is what we will call a "simple cheat".
 
 - The **red colour** is what **allows the cheat to work** on real hardware/Yuzu or Ryujinx.
 - The green is our Address
@@ -25,7 +25,7 @@ To convert the cheat to .pchtxt we will ignore the red colour and keep the rest.
 
 ![Screenshot](https://i.gyazo.com/3b60ed2bb2206eaf0691e239e6ca8c15.png)
 
-6. Finally do the exefs mod structure as I explained [here](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/GhidraFinalSteps.md): Get the nsboid etc etc and don't forget to place the mod into your mods folder directory.
+6. Finally do the exefs mod structure as I explained [here](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/GhidraFinalSteps.md): Get the nsboid etc etc and don't forget to place the mod into your mods folder directory.
 
 ### "Hard" Steps
 
@@ -41,7 +41,7 @@ The reason I call these steps "Hard Steps" is because this time we will use a mo
 ```
 This time we have 4 columns instead of 3. As before we will ignore the first column (080E0000 + 040E0000) and keep everything else. So ... steps:
 
-1. Download Interactive-ASM-Cheats-Updater and run `main_en.exe`
+1. Download Code Updater for Nintendo Switch and run `main_en.exe`
 
 You'll see "Old Main File", "New Main File" and a Load Button. 
 
@@ -76,7 +76,7 @@ We have replaced 080E0000 by 040E0000 and divided our Address in 2: `02B0AFC8` (
 
 ![Screenshot](https://i.gyazo.com/c937db3bbfbc61a5e556fa734111da76.png)
 
-Keep in mind Windows calculator ignore 0's so if you miss one 0 just add it. The rest is done automatically by Interactive-ASM-Cheats-Updater and makes it easy for you.
+Keep in mind Windows calculator ignore 0's so if you miss one 0 just add it. The rest is done automatically by Code Updater for Nintendo Switch and makes it easy for you.
 
 This will also be the case for all other lines starting with 080E0000. So next will be:
 
@@ -92,12 +92,12 @@ And finally we have the lines that do not need to be split or converted.
 ```
 
 
-3. Finally do the reverse as I explained before, ignore `040E0000` and do the exefs mod structure as I explained [here](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/GhidraFinalSteps.md): Get the nsboid etc etc and don't forget to place the mod into your mods folder directory.
+3. Finally do the reverse as I explained before, ignore `040E0000` and do the exefs mod structure as I explained [here](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/GhidraFinalSteps.md): Get the nsboid etc etc and don't forget to place the mod into your mods folder directory.
 
 The mod should look similar to this:
 
 ![Screenshot](https://i.gyazo.com/b913ca68d725b4e2ea219520dc08c55b.png)
 
-Do a test and check if it work or not and enjoy. If you want to update the mod in the future you can use Ghidra and follow this [guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/RyujinxSteps.md) or maybe try to use Interactive-ASM-Cheats-Updater
+Do a test and check if it work or not and enjoy. If you want to update the mod in the future you can use Ghidra and follow this [guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/RyujinxSteps.md) or maybe try to use Code Updater for Nintendo Switch
 
-**DISCLAIMER**: Interactive-ASM-Cheats-Updater might not work all the time. Sometimes it can ignore and miss one line of the entire code or just ignore all the cheat and only make 1 change (for instance: you can't use Interactive-ASM-Cheats-Updater directly to update/port cheats starting at 080E0000) so check if it's something missing. If you miss something update/port the mod using Ghidra
+**DISCLAIMER**: Code Updater for Nintendo Switch might not work all the time. Sometimes it can ignore and miss one line of the entire code or just ignore all the cheat and only make 1 change (for instance: you can't use Code Updater for Nintendo Switch directly to update/port cheats starting at 080E0000) so check if it's something missing. If you miss something update/port the mod using Ghidra
