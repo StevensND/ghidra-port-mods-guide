@@ -15,12 +15,15 @@ Being CODE the corresponding code. As an example I would use the following:
 ![imagen](https://i.imgur.com/egkcbbe.png)
 
 
-**Why I use a separator slash**: The left part will be the Address we need to look up in Ghidra (0194EA7C) while the right part will be the function (14000014) that will perform this Address.
+**Why I use a separator slash**: The left part will be the Address or Offset that we need to look up in Ghidra (0194EA7C) while the right part will be the instruction (14000014) that we will give to this Address/Offset.
 
 To make the update/port we will never use the right side (14000014). This will always be the same.
 
-Now in Ghidra press the G key (Go To ...) on your keyboard and type/paste the Address obtained in the .pchtxt file. 
-Ghidra adds 2 more numbers to this Address at the beginning. Depending on the game this can be 71 or any other number. In total it has to be 10. If it’s less than 10: Ghidra will never find the Address you are looking for. So … I'll search for: 710194EA7C and then click on OK.
+Now in Ghidra press the G key (Go To ...) on your keyboard and type/paste the Address/Offset obtained in the .pchtxt file. 
+
+Ghidra adds 2 more numbers to this Address at the beginning. Depending on the game this can be 71 or any other number (for instance Mario Kart 8 Deluxe starts with 6 instead) . 
+
+In total it has to be 10. If it’s less than 10: Ghidra will never find the Address/Offset that you are looking for. So … I'll search for: 710194EA7C and then click on OK.
 
 ![imagen](https://i.imgur.com/4uxXRZA.png)
 
@@ -28,8 +31,8 @@ Ghidra adds 2 more numbers to this Address at the beginning. Depending on the ga
 
 2. Once the Address has been obtained we will have to focus on that whole line of code: `710194ea7c 80 02 00 36     tbz        w0,#0x0,LAB_710194eacc`
 
-To facilitate the understanding of the guide I am using a skin of Ghidra. The white colors will be the Address and the letters and numbers next to the white color will be what we will call "Memory" (I don't know if this is its real name but for clarification we will call it this way). This is represented in blue color.
-We will take these numbers/numbers and letters as this is what we will need to update/port the mod. So in my case it will be: `80 02 00 36`
+To facilitate the understanding of the guide I am using a skin of Ghidra. The white colors will be the Address and the letters and numbers next to the white color will be what we will call "Memory" (I don't know if this is the real name but for clarification we will call it this way). This is represented in blue color.
+We will take these numbers/numbers and letters as this is what we will need to update/port the mod. So in my case it will be: `80 02 00 36`. As you can see, this is a sequence of bytes.
 
 3. We will proceed to open the main of the most recent update (I assume that previously you have already analyzed this main too). Now on our keyboard we will press the S key (Search Memory) and paste the Memory previously obtained (80 02 00 36) and click on Search All.
 
