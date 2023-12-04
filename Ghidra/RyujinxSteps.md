@@ -18,7 +18,7 @@ Remember that you will need 2 versions (the old one and the new one) and if you 
 
 [CLICK HERE](https://youtu.be/jTJYpuG-9Ek?si=ZlOh9_rA2muqoj4C) for a quick video about how to port/update the mods (This method might not work all the time) 
 
-[CLICK HERE to continue with the guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/SetupGhidra.md)
+[CLICK HERE to continue with the guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)
 
 ### Getting the nsobid/BID
 

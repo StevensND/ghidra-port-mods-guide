@@ -32,4 +32,4 @@ You will know that it's over when you see undefined (1) at the bottom right and 
 
 ![imagen](https://i.imgur.com/WtpFX1M.png)
 
-[CLICK HERE to continue with the guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/GhidraSteps.md)
+[CLICK HERE to continue with the guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/GhidraSteps.md)
