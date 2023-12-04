@@ -24,7 +24,7 @@ Now open the corresponding main in Ghidra. The first time you will get a window 
 
 **If you didn't see the pop-up window** asking you for analyze or if you closed it by mistake or clicked No, **go to Analysis** (next to File and Edit) and **click on Auto Analyze**. Alternatively you can directly press the "A" key on your keyboard.
 
-![imagen](https://i.gyazo.com/569331826e9dd197b7b7dd78234a2f7d.png)
+![imagen](https://i.imgur.com/v3eyZil.png)
 
 **Remember to Enable (Switch) IPC Analyzer too**. Let Ghidra analyze the file (as I said before this may take a little or a lot of time depending on the game and the update) so do something else in the meantime and be patient. 
 

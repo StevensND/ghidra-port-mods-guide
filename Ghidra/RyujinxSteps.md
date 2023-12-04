@@ -24,7 +24,7 @@ You can also get the nsobid as I show in [this video](https://youtu.be/i3l_xezca
 
 ![imagen](https://i.imgur.com/qHoL0Cp.png)
 
-Finally, you can use [Tinfoil](http://tinfoil.io/Title/). Search the game, in this case [Zelda TOTK](http://tinfoil.io/Title/0100F2C0115B6000). Now scroll down until you see the Build ID's section. Get all numbers and letters. Don't include the 0s at the end, we don't need them. **Keep in mind that sometimes Tinfoil may not have updated the BID**. If this is the case use NSCBuilder or HxD. 
+Finally, you can use [Tinfoil](http://tinfoil.io/Title/). Search the game, in this case [Zelda TOTK](http://tinfoil.io/Title/0100F2C0115B6000). Now scroll down until you see the Build ID's section. Get all numbers and letters. Don't include the 0s at the end, we don't need them. **Keep in mind that sometimes Tinfoil may not have updated the BID**. If this is the case, just use NSCBuilder or HxD. 
 
 ### Things to keep in mind when you use NSCBuilder/NxFileViewer
 
