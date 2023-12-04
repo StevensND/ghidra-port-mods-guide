@@ -30,7 +30,7 @@ Now we will proceed to make the updated mod.
 
 2. Open [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20). Click on File -> Open. Search for the main file of the latest update (1.2.0 in my case). You can use [this site](https://hexed.it/) too as alternative if you don't want to download HxD.
 
-Open it  and focus on the left corner. Look at 00000040 and 00000050 lines. Get the letters and numbers until you find 0's. That’s the @nsobid that we will need for the update mod. You got a [video explanation here](https://youtu.be/d1XWoEgAgrU) and another ways to find the nsobid [here]()
+Open it  and focus on the left corner. Look at 00000040 and 00000050 lines. Get the letters and numbers until you find 0's. That’s the @nsobid that we will need for the update mod. You got a video tutorial and another ways to find the nsobid [here](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/RyujinxSteps.md#getting-the-nsobidbid)
 
 Here's an example:
 
