@@ -6,7 +6,7 @@ Btw, here's more info about [Cheat Code Format](https://github.com/Atmosphere-NX
 
 ### Easy Steps
 
-1. Get all files required [here](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Cheat%20to%20.pchtxt/Files%20Required)
+1. Get all files required [here](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Code%20Updater%20for%20Nintendo%20Switch/Cheat%20to%20.pchtxt/Files%20Required)
 2. Extract the ExeFS files as shown [here](https://youtu.be/d1XWoEgAgrU?t=78). We need the main file. Do this for the update in which the cheat was developed and another update as I told you in Files Required. If you need to know the BuildID, [check this](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/RyujinxSteps.md)
 3. If the cheat is in .ips format instead of .txt: Drag the .ips file onto ips+pchtxt2cheat.py. It will automatically generate the .txt file you need.
 4. Open the .txt file and you will see something like this:
