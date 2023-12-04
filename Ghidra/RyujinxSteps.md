@@ -16,10 +16,6 @@ Remember that you will need 2 versions (the old one and the new one) and if you 
 
 ![imagen](https://i.imgur.com/0yVpaDj.png)
 
-[CLICK HERE](https://youtu.be/jTJYpuG-9Ek?si=ZlOh9_rA2muqoj4C) for a quick video about how to port/update the mods (This method might not work all the time) 
-
-[CLICK HERE to continue with the guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)
-
 ### Getting the nsobid/BID
 
 You got a [video explanation here](https://youtu.be/d1XWoEgAgrU)
@@ -46,3 +42,6 @@ You probably don't have this folder, so create it and **name it .switch**
 
 Now open it and paste your prod.keys there. NxFileViewer should works now.
 
+[CLICK HERE](https://youtu.be/jTJYpuG-9Ek?si=ZlOh9_rA2muqoj4C) for a quick video about how to port/update the mods (This method might not work all the time) 
+
+[CLICK HERE to continue with the guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)

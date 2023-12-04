@@ -16,7 +16,7 @@ This guide is mainly focused on how to update mods or cheats **for Yuzu or Ryuji
 
   If you don't have much time I would recommend starting with a game like ...  ToZ: Link's Awakening. You can find the [mods here](https://yuzu-emu.org/wiki/switch-mods/) (Press Control F on your keyboard and search for Awakening).
 
-  [CLICK HERE TO START the Ghidra guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/RyujinxSteps.md)
+  [CLICK HERE TO START the Ghidra guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/RyujinxSteps.md)
 
 ### Other guides:
 
