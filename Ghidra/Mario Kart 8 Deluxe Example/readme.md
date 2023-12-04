@@ -45,6 +45,9 @@ This is what Ghidra found:
 
 In this case, everything's OK.
 
+60B8173C bytes are: `97 00 00 1a` and our new address/offset, `60BC0B3C` got the same bytes.
+60B81740 bytes are: `60 02 9f e5` and the bytes matches the next new address/offset (we don't need it for this mod): `60BC0B40`
+
 5. Now create the new .pchtxt file using [this guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/RyujinxSteps.md) to get the new nsobid, replace the new addresses/offsets and done, you got the mod updated. In this case it will be:
 
 ```
