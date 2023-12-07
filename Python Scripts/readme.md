@@ -1,4 +1,4 @@
-### Usefult Python Scripts:
+### Useful Python Scripts:
 
 - **cheat2pchtxt.py**: This script will convert a cheat in .txt format to .pchtxt format
 
