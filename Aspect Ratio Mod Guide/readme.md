@@ -41,7 +41,9 @@ I will skip the info about how to setup Ghidra in this guide.
 
 - **[GDB-Multiarch](https://static.grumpycoder.net/pixel/gdb-multiarch-windows/)**: Thanks to the combo of CE + GDB we will be able to find our final address for Ghidra/IDA as well as modify the Aspect Ratio in real time. So **using GDB is very important** for this guide.
 
-I have also made a GDB-Multiarch pack in case the link doesn't work, has been removed or is down. This pack includes GDB-Multiarch and the Python scripts that we'll use.
+I have also made a [GDB-Multiarch pack](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Aspect%20Ratio%20Mod%20Guide/Files%20Required) in case the link doesn't work, has been removed or is down. 
+
+This pack (gdb-multiarch-13.2.zip) includes GDB-Multiarch and the Python scripts that we'll use.
 
 ## Pre-Setup
 
