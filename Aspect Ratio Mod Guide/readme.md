@@ -73,8 +73,8 @@ Go to `Emulation` and click on `Configure`. Then click on `Debug`. Finally click
 
 ![image](https://i.imgur.com/LcUWQ1V.png)
 
-We have finished with the Pre-Setup. Next I will give you some [important information](https://github.com/StevensND/ce-gdb-ar/tree/main/Aspect%20Ratio%20Mod%20Guide/Info) that you need to know and keep in mind to make this mod, so open this link in a new tab.
+We have finished with the Pre-Setup. Next I will give you some [important information](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Aspect%20Ratio%20Mod%20Guide/Info) that you need to know and keep in mind to make this mod, so open this link in a new tab.
 
 ## Guide Start
 
-Let's start with the guide. Click in [this link](https://github.com/StevensND/ce-gdb-ar/blob/main/Aspect%20Ratio%20Mod%20Guide/Steps/Finding%20CE%20Values.md)
+Let's start with the guide. Click in [this link](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Aspect%20Ratio%20Mod%20Guide/Steps/Finding%20CE%20Values.md)

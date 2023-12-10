@@ -67,7 +67,7 @@ Then Press Enter and type a random value such as 5. Check if the [Aspect Ratio h
 You can't do anything else. However, later we will see another possible alternative using Ghidra
 ```
 
-[Click here](https://github.com/StevensND/ce-gdb-ar/blob/main/Aspect%20Ratio%20Mod%20Guide/Steps/GDB%20to%20Ghidra.md#final-tips) if this is your case.
+[Click here](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Aspect%20Ratio%20Mod%20Guide/Steps/GDB%20to%20Ghidra.md#final-tips) if this is your case.
 
 In this case the Aspect Ratio has changed so now within the range of values that I have selected I will change the value 1 by 1 until I find which is the Address that makes the Aspect Ratio change.
 
@@ -101,4 +101,4 @@ If you don't do this, GDB will not be able to find the information that the scri
 
 Also write down the 2 addresses somewhere, in my case: `2650E339108` and `265925B9108`.
 
-We are done with the CE steps, next we will start using [Python scripts](https://github.com/StevensND/ce-gdb-ar/blob/main/Aspect%20Ratio%20Mod%20Guide/Steps/Using%20Python%20Scripts.md).
+We are done with the CE steps, next we will start using [Python scripts](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Aspect%20Ratio%20Mod%20Guide/Steps/Using%20Python%20Scripts.md).

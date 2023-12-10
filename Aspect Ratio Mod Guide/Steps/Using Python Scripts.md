@@ -234,4 +234,4 @@ We are finishing. Before we continue I want you to focus on the image above.
 
 Locate all the values starting with s (s1, s3 etc etc) as this is usually the instruction that changes the AR in Ghidra/IDA.
 
-This is what we will proceed to do and change in the [final step](https://github.com/StevensND/ce-gdb-ar/blob/main/Aspect%20Ratio%20Mod%20Guide/Steps/GDB%20to%20Ghidra.md).
+This is what we will proceed to do and change in the [final step](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Aspect%20Ratio%20Mod%20Guide/Steps/GDB%20to%20Ghidra.md).
