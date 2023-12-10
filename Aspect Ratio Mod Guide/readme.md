@@ -27,7 +27,7 @@ If you don't know how to do it, please follow [this guide](https://github.com/St
 
 **We will also need to know our nsobid**. This information as well as the necessary programs can be found in the **Ryujinx guide mentioned previously**.
 
-- **[Yuzu](https://yuzu-emu.org/downloads/#windows)**: At the time of writing this guie, only Yuzu is compatible with GDB, so to use GDB we will need to use Yuzu too.
+- **[Yuzu](https://yuzu-emu.org/downloads/#windows)**: At the time of writing this guide, only Yuzu is compatible with GDB, so to use GDB we will need to use Yuzu too.
 
 **I will not stop to explain how to set up Yuzu**, place keys, firmware, game directory etc etc. **I assume you already know how to do that**.
 
@@ -51,7 +51,7 @@ I assume that as of this moment you have already:
 
 1. Installed Python.
 
-2. Installed Ryujinx and configured Ryujinx. Extracted the ExeFS files using Ryujinx as well as having Yuzu installed.
+2. Installed Ryujinx and configured Ryujinx. Extracted the ExeFS files using Ryujinx as well as having Yuzu installed and configured.
 
 3. You have installed Ghidra, installed SwitchLoader, setup the options and finished analyzing the main ExeFS file.
 
