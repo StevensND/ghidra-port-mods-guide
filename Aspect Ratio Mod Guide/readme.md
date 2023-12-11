@@ -1,6 +1,6 @@
 # Aspect Ratio Mod Guide
 
-This guide is based on [u/fruithapje21](https://www.reddit.com/user/fruithapje21/) Reddit's  Guide that you can find [in this link](https://www.reddit.com/r/totkmods/comments/149lpz5/comment/jriqx7f/?context=3) and on the [video guide](https://youtu.be/_lzU1HAasjo?si=TsgxtTBitjAoiCn1) that I did in the past.
+This guide is based on [u/fruithapje21](https://www.reddit.com/user/fruithapje21/) Reddit's  Guide that you can find [in this link](https://www.reddit.com/r/totkmods/comments/149lpz5/a_guide_on_how_to_create_asmpatches_for_nintendo/) and on the [video guide](https://youtu.be/_lzU1HAasjo?si=TsgxtTBitjAoiCn1) that I did in the past.
 
 However due to this method wasn't working for others games apart from Zelda TOTK, I have decided to redo the guide by modifying the method used by Fruithapje21.
 
@@ -8,7 +8,7 @@ The main issue was the "Cannot access memory at address ..." error while you wer
 
 ![image](https://i.imgur.com/e4ojT4l.png)
 
-# To Do:
+## To Do:
 
 - Video Guide
 - IDA Guide
@@ -17,7 +17,7 @@ The main issue was the "Cannot access memory at address ..." error while you wer
 
 - **[Python](https://www.python.org/downloads/)**: We're going to use Python scripts that will do the work for us and save us a lot of time. 
 
-You don't need to have knowledge of Python, but in order to use the scripts you need to have it installed.
+You don't need to have knowledge of Python but in order to use the scripts you need to have it installed.
 
 - **[Ryujinx](https://ryujinx.org/download)**: We're going to use Ryujinx to extract the ExeFS files that we will analyze and use in Ghidra/IDA. 
 
@@ -27,7 +27,7 @@ If you don't know how to do it, please follow [this guide](https://github.com/St
 
 **We will also need to know our nsobid**. This information as well as the necessary programs can be found in the **Ryujinx guide mentioned previously**.
 
-- **[Yuzu](https://yuzu-emu.org/downloads/#windows)**: At the time of writing this guide, only Yuzu is compatible with GDB, so to use GDB we will need to use Yuzu too.
+- **[Yuzu](https://yuzu-emu.org/downloads/#windows)**: At the time of writing this guide, **only Yuzu is compatible with GDB**, so to use GDB we will need to use Yuzu too.
 
 **I will not stop to explain how to set up Yuzu**, place keys, firmware, game directory etc etc. **I assume you already know how to do that**.
 
@@ -63,7 +63,7 @@ So ... our **first step** will be open Cheat Engine.
 
 Once Cheat Engine is open, go to `Edit` and click on `Settings`. Then click on `Scan Settings`.
 
-Here focus on the section that says `Scan the following types of memory regions` and make sure to check the last checkbox: `MEM_MAPPED`. Finally click on OK.
+Here focus on the section that says `Scan the following types of memory regions` and make sure to check the last checkbox: `MEM_MAPPED`. Finally click on `OK`
 
 This is important to **be able to use Cheat Engine in Yuzu**.
 
@@ -71,11 +71,23 @@ This is important to **be able to use Cheat Engine in Yuzu**.
 
 Now in our **second step** we will open Yuzu. 
 
-Go to `Emulation` and click on `Configure`. Then click on `Debug`. Finally click on `Enable GDB Stub`.
+Go to `Emulation` and click on `Configure`. Then click on `Debug`. Finally click on `Enable GDB Stub` and then click on `OK`
 
 ![image](https://i.imgur.com/LcUWQ1V.png)
 
+**REMEMBER**: When you want to go back to playing the game as you normally would, you will have to disable this option.
+
 We have finished with the Pre-Setup. Next I will give you some [important information](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Aspect%20Ratio%20Mod%20Guide/Info) that you need to know and keep in mind to make this mod, so open this link in a new tab.
+
+## Credits
+
+- **Fruithapje21:** Original guide.
+
+- **Fl4sh_**: Python scripts.
+
+- **KeatonTheBot**: ARMDeveloper link contribution as well as help to understand better some concepts.
+
+- **StevensND**: New and update guide.
 
 ## Guide Start
 

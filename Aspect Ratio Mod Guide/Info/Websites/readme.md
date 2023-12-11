@@ -4,7 +4,7 @@
 
 - **[Floating Point Converter](https://www.h-schmidt.net/FloatConverter/IEEE754.html)**: 
 
-We will use this site to convert our float values to HeX values.
+We will use this site to convert our float values to Hex values.
 
 - **[ARM Developer](https://developer.arm.com/documentation/ka001136/latest)**: 
 
@@ -12,7 +12,7 @@ Thanks to this site we will know which `fmov` values we can use. Thanks to Keato
 
 - **[Steam True Float Values](https://steamcommunity.com/discussions/forum/0/2577697791636850186/?l=latam)**:
 
-Here are some true floats values for some ARs as well as their conversion to HeX.
+Here are some true floats values for some ARs as well as their conversion to Hex.
 
 Example:
 

@@ -82,6 +82,16 @@ When we have/want to do fmov, we normally look at the values in the table. So ou
 002B9FCC 0370201E
 ```
 
+# Clean Files
+
+Once you have finished the guide and made the mod: I suggest you delete all generated .txt files including `gdb.txt` from the `bin` folder.
+
+**Before do this**: Backup all the things that you consider important info.
+
+So you would have to delete: `gdb.txt`, `mappings.txt`, `watch_script.txt` and `Ghidra_Offset.txt` from the `bin` folder.
+
+We will do this to avoid possible conflicts the next time we want to repeat the guide.
+
 # Final Tips
 
 Press S key (Search Memory) and in Hex type our value in Hex (0x3fe38e3b). Then click on Search All.

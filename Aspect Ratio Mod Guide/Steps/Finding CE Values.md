@@ -2,9 +2,9 @@
 
 We're going to start opening Yuzu and Cheat Engine.
 
-Remember to have the `Enable GDB Stub` checkbox enabled on Yuzu and the `MEM_MAPPED` checkbox on Cheat Engine. Otherwise it won't work.
+Remember to have the `Enable GDB Stub` checkbox **enabled** on Yuzu and the `MEM_MAPPED` checkbox **enabled** on Cheat Engine. Otherwise it won't work.
 
-For this example I'm going to use Super Mario Wonder v1.0.1 since I have the values written down as well as the mod done.
+For this example I'm going to use `Super Mario Wonder v1.0.1` due to I have the values that I need written down as well as the mod done.
 
 The first time you open Yuzu you will see the loading screen in a loop. Don't worry. This is totally normal.
 
@@ -12,13 +12,13 @@ It means that Yuzu is trying to connect to the GDB server.
 
 ![image](https://i.imgur.com/S08JSWU.png)
 
-Now it's time to **open gdb-multiarch**. Locate your gdb-multiarch folder, then open the `bin` folder and finally run `gdb-multiarch.exe`
+Now it's time to **open gdb-multiarch**. Locate your `gdb-multiarch` folder, then open the `bin` folder and finally run `gdb-multiarch.exe`
 
 You'll see the gdb-multiarch console:
 
 ![image](https://i.imgur.com/L55T4rY.png)
 
-Grab our main commands and copy & paste them into the gdb-multiarch console. Then **Press Enter**. You'll see a warning message. Don't worry, just Press C key.
+Grab our main commands and copy & paste them into the gdb-multiarch console. Then **Press Enter**. You'll see a warning message. Don't worry, just `Press C` key and Enter (if it's neccesary).
 
 ![image](https://i.imgur.com/ZoNAfrL.png)
 
@@ -30,7 +30,7 @@ This will open the Process List. Select Yuzu and click on Open.
 
 Now we got GDB + Yuzu + CE connected. I'm going to start a level on Super Mario Wonder. In this case it will be Sunbaked Desert Palace.
 
-On GDB, I will change `Value Type` to Float and on the Value Box, I will type: `1.77777802`.
+On Cheat Engine, I will change `Value Type` to Float and on the Value Box, I will type: `1.77777802`.
 
 Most of the games doesn't always use `1.77777802`. It can be:
 
@@ -49,7 +49,7 @@ If it doesn't find anything, then test `1.7777777`. If it doesn't find anything 
 
 ![image](https://i.imgur.com/0KOGcoF.png)
 
-Click Next Scan until no more results appear. Once no more results appear, select all those results and click on the red arrow. 
+Click `Next Scan` until no more results appear. Once no more results appear, select all those results and click on the `red arrow` 
 
 Those results will be copied to the bottom and we can start modifying values.
 
@@ -89,7 +89,7 @@ Select the values that do not match 108, press Enter and type a random value lik
 
 ![image](https://i.imgur.com/ZWctg5h.png)
 
-If the values have not changed and are still `2.377777815` or `4.555555344` it means that it is correct and that these addresses are linked to our addresses ending in 108. 
+If the values have not changed and are still `2.377777815` or `4.555555344` it means that it's correct and that these addresses are linked to our addresses ending in 108. 
 
 To test, we will select one of our 2 addresses, change the value to 5 for example and see if all the values in the list have changed to 5.
 
