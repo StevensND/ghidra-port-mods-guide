@@ -29,6 +29,8 @@ So ... this is Ghidra:
 
 ![image](https://i.imgur.com/cCPcWvW.png)
 
+What I did was press the G key on the keyboard and type `71029B5108`
+
 As you can see I got two XREF: FUN_71002b9614 and FUN_710069e47. 
 
 One modifies the overworld and the other modifies the AR in the level I am playing. 

@@ -2,11 +2,13 @@
 
 I assume that you have already setup IDA and analyzed the main file. If not, I remind you that you can do it following [this guide](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/IDA/Setup)
 
-# IDA PRO
+## IDA PRO
 
 This is IDA:
 
 ![image](https://i.imgur.com/QGIKjqv.png)
+
+What I did was press the G key on the keyboard and type `71029B5108`
 
 As you can see I got `DATA XREF: sub_71002B9E14+1A4` and `sub 71002B9E14+1B8`  
 
@@ -67,7 +69,7 @@ When we have/want to do fmov, we normally look at the values in the table. So ou
 002B9FCC 0370201E
 ```
 
-# Clean Files
+## Clean Files
 
 Once you have finished the guide and made the mod: I suggest you delete all generated .txt files including `gdb.txt` from the `bin` folder.
 
@@ -77,7 +79,7 @@ So you would have to delete: `gdb.txt`, `mappings.txt`, `watch_script.txt` and `
 
 We will do this to avoid possible conflicts the next time we want to repeat the guide.
 
-# End of the guide
+## End of the guide
 
 That's it, that's the end of the guide. From here on it's just a matter of testing and discovering that each value you have chosen changes according to the instruction you have given it.
 
