@@ -1,3 +1,7 @@
+## DISCLAIMER
+
+I assume that you have already setup IDA and analyzed the main file. If not, I remind you that you can do it following [this guide](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/IDA/Setup)
+
 # IDA PRO
 
 This is IDA:

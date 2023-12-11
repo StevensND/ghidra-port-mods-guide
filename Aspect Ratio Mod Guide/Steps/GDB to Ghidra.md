@@ -21,7 +21,7 @@ Otherwise I would try using something like `0x802bdfe8` and change the instructi
 
 ## IDA PRO
 
-I have decided to separate IDA and include it in another section. So click here if you are going to use IDA.
+I have decided to separate IDA and include it in another section. So [click here if you are going to use IDA](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Aspect%20Ratio%20Mod%20Guide/Steps/GDB%20to%20IDA.md)
 
 ## Ghidra
 

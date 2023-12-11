@@ -39,7 +39,7 @@ I will skip the info about how to setup Ghidra in this guide.
 
 My advice is to use Ghidra the first time to follow this guide and once you have everything clear or when you want to update the mod, switch to IDA. 
 
-IDA can be complex and there are some options that I still don't know how to do in IDA. Otherwise as I said: just use Ghidra.
+**IDA can be complex** and there are some options that I still don't know how to use/do using IDA. Otherwise as I said: just use Ghidra.
 
 Check [this guide](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/IDA/Setup) to know how to setup IDA as well as the IDA shortcuts.
 
