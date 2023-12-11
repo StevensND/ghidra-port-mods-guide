@@ -40,4 +40,4 @@ Now IDA will start analyzing the main file of the game. Wait until it says `idle
 
 ![image](https://i.imgur.com/RIHrZvj.png)
 
-We're done. Finally, learn the following commands to know how to use IDA.
+We're done. Finally, learn the following [shortcuts](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/IDA/Shortcuts) to know how to use IDA.
