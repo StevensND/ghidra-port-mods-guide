@@ -35,7 +35,13 @@ If you don't know how to do it, please follow [this guide](https://github.com/St
 
 I will skip the info about how to setup Ghidra in this guide.
 
-- **IDA Pro + [nxo64.py](https://github.com/reswitched/loaders/blob/master/nxo64.py)**: If you're more familiar using IDA, then you need `nxo64.py`. Otherwise just use Ghidra.
+- **IDA Pro + [nxo64.py](https://github.com/reswitched/loaders/blob/master/nxo64.py)**: IMO IDA it's more faster than Ghidra. If you're more familiar using IDA, then you need `nxo64.py`. Otherwise just use Ghidra.
+
+My advice is to use Ghidra the first time to follow this guide and once you have everything clear or when you want to update the mod, switch to IDA. 
+
+IDA can be complex and there are some options that I still don't know how to do in IDA. Otherwise as I said: just use Ghidra.
+
+Check [this guide](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/IDA/Setup) to know how to setup IDA as well as the IDA shortcuts.
 
 - **[Cheat Engine](https://www.cheatengine.org/)**: We need Cheat Engine to find the addresses that modify the Aspect Ratio of the game.
 

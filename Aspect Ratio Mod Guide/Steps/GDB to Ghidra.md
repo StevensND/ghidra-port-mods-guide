@@ -17,7 +17,13 @@ Ghidra Address: 71029b5108
 
 In this case I have used this GDB Address because I know that `71029b5108` in Mario Wonder is an Address that modifies both the AR in the levels as well as in the Overworld.
 
-Otherwise I would try using something like `0x802bdfe8` and change the instruction in Ghidra. Then I would see what happens in the game etc etc.
+Otherwise I would try using something like `0x802bdfe8` and change the instruction in Ghidra/IDA. Then I would see what happens in the game etc etc.
+
+## IDA PRO
+
+I have decided to separate IDA and include it in another section. So click here if you are going to use IDA.
+
+## Ghidra
 
 So ... this is Ghidra:
 
