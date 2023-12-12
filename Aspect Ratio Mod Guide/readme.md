@@ -8,10 +8,9 @@ The main issue was the "Cannot access memory at address ..." error while you wer
 
 ![image](https://i.imgur.com/e4ojT4l.png)
 
-## To Do:
+## Video Guide
 
-- Video Guide
-- IDA Guide
+If you wish, you can [check this video guide](https://youtu.be/yV85AgYlE5c?si=7mA8F0ejHxNBmbds) while following all the steps of the written guide. 
 
 ## Requirements
 
