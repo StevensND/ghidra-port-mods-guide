@@ -69,6 +69,22 @@ When we have/want to do fmov, we normally look at the values in the table. So ou
 002B9FCC 0370201E
 ```
 
+# Yuzu or Ryujinx Settings
+
+![image](https://i.imgur.com/AYKXx0l.png)
+
+Remember that in order to use the Aspect Ratio mods we have to modify our Aspect Ratio in our game custom settings. 
+
+To do this we will `Right click on the game` and then click on `Properties`. We will go to the `Graphics` section and finally we will locate the `Aspect Ratio` section. 
+
+Set it to `Stretch to Window`
+
+For Ryujinx we will do the same. Click on `Options` and then click on `Settings`
+
+Click on `Graphics` and finally locate the `Aspect Ratio` section. Set it to `Stretch to Fit Window`
+
+![image](https://i.imgur.com/AmS0XpG.png)
+
 ## Clean Files
 
 Once you have finished the guide and made the mod: I suggest you delete all generated .txt files including `gdb.txt` from the `bin` folder.
