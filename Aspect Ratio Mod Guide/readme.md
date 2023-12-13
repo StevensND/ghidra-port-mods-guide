@@ -1,6 +1,6 @@
 # Aspect Ratio Mod Guide
 
-This guide is based on [u/fruithapje21](https://www.reddit.com/user/fruithapje21/) Reddit's  Guide that you can find [in this link](https://www.reddit.com/r/totkmods/comments/149lpz5/a_guide_on_how_to_create_asmpatches_for_nintendo/) and on the [video guide](https://youtu.be/_lzU1HAasjo?si=TsgxtTBitjAoiCn1) that I did in the past.
+This guide is based on [u/fruithapje21](https://www.reddit.com/user/fruithapje21/) Reddit's  Guide that you can find [in this link](https://www.reddit.com/r/totkmods/comments/149lpz5/a_guide_on_how_to_create_asmpatches_for_nintendo/) and on the [old video guide](https://youtu.be/_lzU1HAasjo?si=TsgxtTBitjAoiCn1) that I did in the past.
 
 However due to this method wasn't working for others games apart from Zelda TOTK, I have decided to redo the guide by modifying the method used by Fruithapje21.
 
@@ -10,7 +10,7 @@ The main issue was the "Cannot access memory at address ..." error while you wer
 
 ## Video Guide
 
-If you wish, you can [check this video guide](https://youtu.be/yV85AgYlE5c?si=7mA8F0ejHxNBmbds) while following all the steps of the written guide. 
+If you wish, you can [check this new updated video guide](https://youtu.be/yV85AgYlE5c?si=7mA8F0ejHxNBmbds) while following all the steps of the written guide. 
 
 ## Requirements
 

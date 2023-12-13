@@ -6,7 +6,7 @@ He's a Discord user who messaged me and shared the scripts for testing.
 
 For this reason you have this guide. He and I have tried other non-Zelda TOTK games such as Mario Wonder, Persona 5 Tactica, Dragon Quest Monsters, Sonic Frontiers, Sonic Superstars, Mario Party ... among others and we have been successful in modifying the Aspect Ratio.
 
-However in games like Master Detective Archives Rain Code and Demon Slayer, I at least, have not been successful. The Aspect Ratio does not change and the image becomes smaller (as if cropped).
+However in games like Master Detective Archives Rain Code and Demon Slayer, I at least, have not been successful. The Aspect Ratio doesn't change and the image becomes smaller (as if cropped).
 
 # Running our first script: Flashscript V2.py
 
@@ -95,7 +95,7 @@ Enter the Hexadecimal Representation value that Floating Point Converter gave yo
 
 Now go to the [Floating Point Converter](https://www.h-schmidt.net/FloatConverter/IEEE754.html) website and type the value that you leave on CE. In my case: 2.377777815
 
-Floating Point Converter will return this value converted to HeX. In this case: 0x40182d83
+Floating Point Converter will return this value converted to Hex. In this case: 0x40182d83
 
 Here's a list of other values:
 
@@ -190,7 +190,7 @@ As you can see in [this image](https://i.imgur.com/JsTH7L5.png) the CE value cha
 
 In this way we have ensured that this address is correct and that when we change the value, it will change both in CE and in the game.
 
-You can test by putting a random value in Floating Point Converter such as `1.23456789` and get that value in HeX. 
+You can test by putting a random value in Floating Point Converter such as `1.23456789` and get that value in Hex. 
 
 Then you would do: 
 

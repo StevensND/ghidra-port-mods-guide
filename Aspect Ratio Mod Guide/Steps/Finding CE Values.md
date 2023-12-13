@@ -4,7 +4,7 @@ We're going to start opening Yuzu and Cheat Engine.
 
 Remember to have the `Enable GDB Stub` checkbox **enabled** on Yuzu and the `MEM_MAPPED` checkbox **enabled** on Cheat Engine. Otherwise it won't work.
 
-For this example I'm going to use `Super Mario Wonder v1.0.1` due to I have the values that I need written down as well as the mod done.
+For this guide I'm going to use `Super Mario Wonder v1.0.1` due to I have the values that I need written down as well as the mod done.
 
 The first time you open Yuzu you will see the loading screen in a loop. Don't worry. This is totally normal.
 
@@ -18,17 +18,17 @@ You'll see the gdb-multiarch console:
 
 ![image](https://i.imgur.com/L55T4rY.png)
 
-Grab our main commands and copy & paste them into the gdb-multiarch console. Then **Press Enter**. You'll see a warning message. Don't worry, just `Press C` key and Enter (if it's neccesary).
+Grab our main commands and **copy & paste them** into the `gdb-multiarch console`. Then **Press Enter**. You'll see a warning message. Don't worry, just `Press C` key and Enter (if it's neccesary).
 
 ![image](https://i.imgur.com/ZoNAfrL.png)
 
 Now GDB and Yuzu are connected. Go back to Cheat Engine and click on the Magnifying Glass icon.
 
-This will open the Process List. Select Yuzu and click on Open.
+This will open the `Process List``. Select Yuzu and click on `Open`.
 
 ![image](https://i.imgur.com/cHRREoD.png)
 
-Now we got GDB + Yuzu + CE connected. I'm going to start a level on Super Mario Wonder. In this case it will be Sunbaked Desert Palace.
+Now we got GDB + Yuzu + CE connected. I'm going to start a level on Super Mario Wonder. In this case it will be `Sunbaked Desert Palace`.
 
 On Cheat Engine, I will change `Value Type` to Float and on the Value Box, I will type: `1.77777802`.
 
@@ -43,7 +43,7 @@ Most of the games doesn't always use `1.77777802`. It can be:
 1.777777791
 ```
 
-I'm using `1.77777802` due to I know this is the value that I'm looking for. However you'd need to try: `1.777777791` first. After typing the value click on First Scan.
+I'm using `1.77777802` due to I know this is the value that I'm looking for. However you'd need to try: `1.777777791` first. After typing the value click on `First Scan`.
 
 If it doesn't find anything, then test `1.7777777`. If it doesn't find anything then try: `1.7777` etc etc until you find something. 
 
@@ -57,7 +57,7 @@ Those results will be copied to the bottom and we can start modifying values.
 
 You can go 1 by 1 or select a small group and change the value. 
 
-To do this click on the first value and while holding down the Shift key, click on the last result you want to choose.
+To do this click on the first value and **while holding down** the `Shift key`, click on the last result you want to choose.
 
 Then Press Enter and type a random value such as 5. Check if the [Aspect Ratio has changed](https://i.imgur.com/bztZdSh.png) in the game.
 
@@ -85,11 +85,11 @@ We will focus on the last 3 digits of our 2 Addresses. In my case: 108.
 
 We will discard these 2 Addresses since we already have them added and add the others below (by selecting them and clicking on the red arrow)
 
-Select the values that do not match 108, press Enter and type a random value like 3
+Select the values that don't match 108, press Enter and type a random value like 3
 
 ![image](https://i.imgur.com/ZWctg5h.png)
 
-If the values have not changed and are still `2.377777815` or `4.555555344` it means that it's correct and that these addresses are linked to our addresses ending in 108. 
+If the values haven't changed and are still `2.377777815` or `4.555555344` it means that it's correct and that these addresses are linked to our addresses ending in 108. 
 
 To test, we will select one of our 2 addresses, change the value to 5 for example and see if all the values in the list have changed to 5.
 
