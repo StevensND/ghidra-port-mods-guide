@@ -34,7 +34,7 @@ def convert_cheat_to_pchtxt(cheat_path, cheat_name, out_pchtxt_path):
         out_pchtxt_file = open(out_pchtxt_path, 'wb+')
 
     for line in cheat_file.readlines():
-        codeMatch = re.match(r"^(04000000|040A0000|040E0000)\s+([0-9A-Fa-f]+)\s+([0-9A-Fa-f]+)", line)
+        codeMatch = re.match(r"^(04000000|04090000|040A0000|040E0000)\s+([0-9A-Fa-f]+)\s+([0-9A-Fa-f]+)", line)
         if codeMatch:
             cheat_type = codeMatch.group(1)
             address = codeMatch.group(2)
