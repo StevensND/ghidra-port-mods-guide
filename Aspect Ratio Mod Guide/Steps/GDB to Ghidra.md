@@ -2,12 +2,13 @@
 Maybe instead of using this script you want to use another script for a specific game.
 
 >[!NOTE]
-Have a look at the [specific scripts section](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Aspect%20Ratio%20Mod%20Guide/Files%20Required/Specific%20scripts) for some games
+Take a look at the [specific scripts section](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Aspect%20Ratio%20Mod%20Guide/Files%20Required/Specific%20scripts) for some games
 
 >[!IMPORTANT]
 The reason for using these scripts instead of the normal `3.GDBtoGHIDRA.py` script is that **some games don't use `7100000000` as Base Address**.
 
-For instance: Mario Kart 8 Deluxe use `60000000` instead of `7100000000` so if you use the `3.GDBtoGHIDRA.py` script you would not get a working Ghidra Address.
+>[!CAUTION]
+Games like Mario Kart 8 Deluxe use `60000000` instead of `7100000000` so if you use the `3.GDBtoGHIDRA.py` script you would not get a working Ghidra Address.
 
 # Running our last script: 3.GDBtoGHIDRA.py
 
