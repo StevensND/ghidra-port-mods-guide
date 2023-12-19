@@ -230,7 +230,74 @@ Copy all this information into another text file because it will be the informat
 
 Now, Press Control C again and keep spamming C and Enter until 0x00000000802bdfd0 in ?? () is repeated again. Copy and paste all information that is not repeated.
 
-We are finishing. Before we continue I want you to focus on the image above.
+# Clarifications before proceeding to the final step
+
+First of all, **I want to go back to this info**:
+
+```
+(gdb) awatch *0x829b9108
+Hardware access (read/write) watchpoint 1: *0x829b9108
+(gdb)
+
+
+Press C and then press Enter. You will get this message:
+
+
+(gdb) c
+Continuing.
+[Switching to Thread 119]
+
+Thread 44 "BaseProcExecutor0" hit Hardware access (read/write) watchpoint 1: *0x829b9108
+
+Value = 1083295516
+0x00000000802bdfd0 in ?? ()
+(gdb)
+
+
+Now paste this command: `x/20i $pc-40` and press Enter.
+```
+
+**This step is very important and you may be confused**, so I want to clarify it:
+
+In my **Mario Wonder example**, `0x829b9108` would be the GDB address that I'll be using for the last script since it's the value that GDB found when using the `find` command. However, **YOU DON'T HAVE TO USE THIS ADDRESS**.
+
+Once you have used the command `awatch *0x829b9108` and pressed Enter, you should `type C` and `press Enter` again. 
+
+After this you would use the command `x/20i $pc-40` and press Enter.
+
+You would copy the information it gives you in another .txt file and **repeat the process of typing C, press Enter and retype the command `x/20i $pc-40` and press Enter**.
+
+**Let's look at a new example. This time it's `Pokémon Let's Go, Eevee!**
+
+The address found by GDB is: `0x2154cc2874` so what I would do is type the command: `awatch *0x2154cc2874` and `Press Enter`. After this I would use the command `x/20i $pc-40` as shown in the image below
+
+![image](https://i.imgur.com/b3gxe41.png)
+
+Now [I would copy that information into a new .txt file](https://i.imgur.com/BrcxzsF.png), retype C and press Enter again.
+
+I would repeat the same thing again until the information was repeated. Once it repeats I stop copying the information. 
+
+![image](https://i.imgur.com/OVd71iX.png)
+
+So instead of using the GDB Address that GDB found earlier: `0x2154cc2874`, I would use something like: `0x803179a0` for the last script.
+
+![image](https://i.imgur.com/4WVevrm.png)
+
+If I had used `0x2154cc2874` I would get this:
+
+![image](https://i.imgur.com/n8Nprrg.png)
+
+This won't work since Ghidra's Base Address usually is (**CAREFUL: NOT IN ALL GAMES**): `7100000000` and **in this case the script interprets that the base is: `9100000000`**
+
+The Base Address for Mario Kart 8 Deluxe for example, would be: `60000000` instead of `7100000000`.
+
+I hope this has clarified your doubts.
+
+# End of Running our second script: ScanGDB.py
+
+We are finishing. Before we continue I want you to focus on the image below:
+
+![image](https://i.imgur.com/rE0nUIW.png)
 
 Locate all the values starting with s (s1, s3 etc etc) as this is usually the instruction that changes the AR in Ghidra/IDA.
 
