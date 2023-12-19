@@ -1,4 +1,4 @@
-[!TIP]
+> [!TIP]
 Maybe instead of using this script you want to use another script for a specific game.
 
 Have a look at the [specific scripts section](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Aspect%20Ratio%20Mod%20Guide/Files%20Required/Specific%20scripts) for some games
