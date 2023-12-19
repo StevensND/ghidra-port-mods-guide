@@ -10,9 +10,13 @@ We will use this site to convert our float values to Hex values.
 
 Thanks to this site we will know which `fmov` values we can use. Thanks to KeatonTheBot for the contribution.
 
-- **[Steam True Float Values](https://steamcommunity.com/discussions/forum/0/2577697791636850186/?l=latam)**:
+- **[WSGF Hex Editing](https://www.wsgf.org/article/common-hex-values)**:
 
 Here are some true floats values for some ARs as well as their conversion to Hex.
+
+- **[Steam True Float Values](https://steamcommunity.com/discussions/forum/0/2577697791636850186/)**:
+
+Similar as WSGF. Some true floats values for some ARs as well as their conversion to Hex.
 
 Example:
 
