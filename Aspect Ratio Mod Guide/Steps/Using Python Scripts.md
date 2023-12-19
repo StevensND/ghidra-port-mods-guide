@@ -259,7 +259,7 @@ Now paste this command: `x/20i $pc-40` and press Enter.
 
 **This step is very important and you may be confused**, so I want to clarify it:
 
-In my **Mario Wonder example**, `0x829b9108` would be the GDB address that I'll be using for the last script since it's the value that GDB found when using the `find` command. However, **YOU DON'T HAVE TO USE THIS ADDRESS**.
+In my **Mario Wonder example**, `0x829b9108` would be the GDB address that I'll be using for the last script since it's the value that GDB found when using the `find` command. However, **YOU DON'T HAVE TO USE THIS ADDRESS IF YOU'RE USING ANOTHER GAME**.
 
 Once you have used the command `awatch *0x829b9108` and pressed Enter, you should `type C` and `press Enter` again. 
 
@@ -267,19 +267,19 @@ After this you would use the command `x/20i $pc-40` and press Enter.
 
 You would copy the information it gives you in another .txt file and **repeat the process of typing C, press Enter and retype the command `x/20i $pc-40` and press Enter**.
 
-**Let's look at a new example. This time it's `Pokémon Let's Go, Eevee!**
+**Let's look at a new example. This time it's Pokémon Let's Go, Eevee!**
 
 The address found by GDB is: `0x2154cc2874` so what I would do is type the command: `awatch *0x2154cc2874` and `Press Enter`. After this I would use the command `x/20i $pc-40` as shown in the image below
 
 ![image](https://i.imgur.com/b3gxe41.png)
 
-Now [I would copy that information into a new .txt file](https://i.imgur.com/BrcxzsF.png), retype C and press Enter again.
+Now [I would copy that information into a new .txt file](https://i.imgur.com/KAGW7e9.png), retype C and press Enter again.
 
-I would repeat the same thing again until the information was repeated. Once it repeats I stop copying the information. 
+I would repeat the same thing again until the information was repeated. Once it repeats I stop.
 
 ![image](https://i.imgur.com/OVd71iX.png)
 
-So instead of using the GDB Address that GDB found earlier: `0x2154cc2874`, I would use something like: `0x803179a0` for the last script.
+So **instead of using the GDB Address that GDB found earlier: `0x2154cc2874`, I would use something like: `0x803179a0` for the last script.**
 
 ![image](https://i.imgur.com/4WVevrm.png)
 
