@@ -44,4 +44,4 @@ Now open it and paste your prod.keys there. NxFileViewer should works now.
 
 [CLICK HERE](https://youtu.be/jTJYpuG-9Ek?si=ZlOh9_rA2muqoj4C) for a quick video about how to port/update the mods (This method might not work all the time). Also here's the [written guide](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Code%20Updater%20for%20Nintendo%20Switch/Updating%20.pchtxt%20mods%20or%20cheats%20using%20this%20tool) about this video. 
 
-[CLICK HERE to continue with the guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)
+[CLICK HERE to continue with THIS GUIDE](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)
