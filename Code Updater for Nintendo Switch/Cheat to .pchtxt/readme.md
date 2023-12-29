@@ -21,7 +21,7 @@ If you have a cheat like this:
 640F0000 00000000 00000000
 ```
 
-**You can't convert/update it** using Code Updater for Nintendo Switch. This is cheat made on real hardware so only the person who made it can update it.
+**You can't convert/update it** using Code Updater for Nintendo Switch. This is a cheat made on real hardware so only the person who made it can update it.
 
 If you want to convert it to mod (.pchtxt) you would have to look for other methods and understand how the cheat works.
 
