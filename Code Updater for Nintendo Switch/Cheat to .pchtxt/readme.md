@@ -1,3 +1,30 @@
+### Caution
+
+If you have a cheat like this:
+
+```
+[60 FPS]
+580F0000 0AB4E058
+580F1000 00000018
+580F1000 000000A0
+780F0000 00000F14
+640F0000 00000000 00000001
+580F0000 0AB49108
+780F0000 00000034
+680F0000 00000000 00000000
+580F0000 0B314540
+780F0000 000007F8
+640F0000 00000000 00000007
+780F0000 00000004
+640F0000 00000000 42700000
+780F0000 00000014
+640F0000 00000000 00000000
+```
+
+**You can't convert/update it** using Code Updater for Nintendo Switch. This is cheat made on real hardware so only the person who made it can update it.
+
+If you want to convert it to mod (.pchtxt) you would have to look for other methods and understand how the cheat works.
+
 ### Goal/Objective of the guide
 
 We want to be able to convert a cheat in .txt or .ips format to .pchtxt and make a mod (exefs in this case). This may or may not be useful depending on whether the cheat is often updated. There is really no need to have a mod in .pchtxt (exefs) if the cheat already exists.
