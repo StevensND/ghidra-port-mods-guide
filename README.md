@@ -1,6 +1,6 @@
 This guide is mainly focused on how to update mods or cheats **for Yuzu or Ryujinx emulators**. It also includes some tutorials that you can use to start making your first mods in **exefs (IPSwitch)** format.
 
-### What we usually need:
+## What we usually need:
 
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases) or IDA Pro
 - [SwitchLoader Extension](https://github.com/StevensND/Ghidra-Switch-Loader/releases) if you're using Ghidra or [nxo64.py](https://github.com/reswitched/loaders/blob/master/nxo64.py) if you're using IDA Pro
@@ -18,11 +18,12 @@ This guide is mainly focused on how to update mods or cheats **for Yuzu or Ryuji
 
   [CLICK HERE TO START the Ghidra guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/RyujinxSteps.md)
 
-### Other guides:
+## Other guides:
 
-- [Converting cheats to .pchtxt guide](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Cheat%20to%20.pchtxt) | [How to update Switch mods or cheats using Interactive ASM Cheats Updater Video](https://youtu.be/jTJYpuG-9Ek?si=FfoiGiyC-uPgjxiA). These two guides are more or less related so I advise you to watch both for a better understanding.
+- [Converting cheats to .pchtxt + updates cheats/mods guide](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Code%20Updater%20for%20Nintendo%20Switch) | [How to update Switch mods or cheats using Interactive ASM Cheats Updater Video](https://youtu.be/jTJYpuG-9Ek?si=FfoiGiyC-uPgjxiA). These two guides are more or less related so I advise you to watch both for a better understanding.
+- [Aspect Ratio Mod Guide](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Aspect%20Ratio%20Mod%20Guide)
 
-# Special Thanks to:
+## Special Thanks to:
 
 - [Father Of Egg](https://www.reddit.com/user/Father_Of_Egg) for teaching me how to use Ghidra + basic concepts.
 - [PixelKiri](https://www.reddit.com/user/PixelKiri) for update SwitchLoader and make it compatible with latest Ghidra updates.
