@@ -27,9 +27,11 @@ If you want to convert it to mod (.pchtxt) you would have to look for other meth
 
 ### Video guide
 
-This is a [quick video guide](https://youtu.be/8FbzlcadVQY?si=Nx4uSKnY40xyXt-k) about what I'm going to explain in this written guide.
+This is a [quick video guide](https://youtu.be/bNWQGp8Hf0c?si=LEcw4odDWEPYxF8F) about what I'm going to explain in this written guide.
 
 Check it out. Especially if you got lost at any step.
+
+Pause the video when necessary.
 
 ### Steps
 
