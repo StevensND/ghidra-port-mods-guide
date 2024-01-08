@@ -24,7 +24,7 @@ Grab our main commands and **copy & paste them** into the `gdb-multiarch console
 
 Now GDB and Yuzu are connected. Go back to Cheat Engine and click on the Magnifying Glass icon.
 
-This will open the `Process List``. Select Yuzu and click on `Open`.
+This will open the `Process List`. Select Yuzu and click on `Open`.
 
 ![image](https://i.imgur.com/cHRREoD.png)
 
