@@ -63,7 +63,7 @@ However `71029b5108` modifies this at the same time.
 
 On May 2, 2024 I add this next info since from this moment, users following this guide were copying literally what I was doing instead of trying to understand the guide and the explanation.
 
-Let's go back to the screenshot again:
+So ... Let's go back to the screenshot again:
 
 ![image](https://i.imgur.com/cCPcWvW.png)
 
