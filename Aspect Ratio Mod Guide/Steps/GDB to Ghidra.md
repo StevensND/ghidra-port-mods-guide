@@ -151,7 +151,7 @@ Let's go back to the screenshot again:
 
 ![image](https://i.imgur.com/cCPcWvW.png)
 
-I clicked on `71029b5108` and then go to `Data` and click on `Float`. Now we see this info: `float 1.777778`. Save (Press Control S)
+I right-clicked on `71029b5108` and then go to `Data` and click on `Float`. Now we see this info: `float 1.777778`. Save (Press Control S)
 
 Do you remember when I searched for `1.77777802` instead of `1.777777791` or `1.777777777`? ... Well, it was because of this.
 
