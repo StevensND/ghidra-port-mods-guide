@@ -61,7 +61,7 @@ However `71029b5108` modifies this at the same time.
 
 ## What you should do now
 
-On May 2, 2024 I add this information since from this moment, users following this guide were copying literally what I was doing instead of trying to understand the guide and the explanation.
+On May 2, 2024 I add this next info since from this moment, users following this guide were copying literally what I was doing instead of trying to understand the guide and the explanation.
 
 Let's go back to the screenshot again:
 
@@ -69,7 +69,7 @@ Let's go back to the screenshot again:
 
 **Remember that in this case we got two XREF: FUN_71002b9614 and FUN_710069e47**. 
 
-Click on one of them, for instance FUN_71002b9614.
+Click on one of them, for instance XREF: FUN_71002b9614.
 
 I've this result:
 
@@ -83,15 +83,15 @@ For instance, I could take `71002b9fc8` and start writing my mod. The full line 
 
 `71002b9fc8 01 10 2c 1e     fmov       s1,0x3f000000`
 
-I could change `fmov s1,0x3f000000` and convert it to: `fmov s1, #2.375`
+I could change `fmov s1,0x3f000000` and convert it to: `fmov s1, #2.375` using [ARMConverter](https://armconverter.com/)
 
 ## Writing my mod code
 
-I assume that you have already extracted the main file (ExeFS) and have analyzed it in Ghidra as I advised you before starting these steps.
+I assume that you have already extracted the main file (ExeFS) and have Ghidra set up + analyzed the main in Ghidra as I advised you before starting these steps.
 
-Now, all you've to do is open your mod directory in your emulator. 
+Now, all you've to do is open your emulator and open your mods directory folder. 
 
-Once this folder is opened, in the same directory, create a new folder.
+Once this mods directory folder is opened, in the same directory, create a new folder.
 
 Call it `Test` and inside this Test folder create another folder called `exefs`.
 
@@ -99,7 +99,7 @@ Inside this exefs folder, create a text file and call it whatever you want ... f
 
 You can create a file with a .txt extension and then change the extension to .pchtxt by changing the file name and extension.
 
-Open this .pchtxt file and use the following information as a template:
+Open this .pchtxt file and use the following info as a template:
 
 ```
 @nsobid-F91868B88F60D3D59009DB3389FDE314A6A32FCD
@@ -122,7 +122,7 @@ https://linktr.ee/stevenssv2
 https://linktr.ee/keatonthebot
 ```
 
-Here you should change the nsobid (you should already know how to get it beforehand), the next line starting with # with the name of the game, TitleID, version, what mod it is etc etc.
+Here you MUST change the nsobid (you should already know how to get it beforehand), also change the next line starting with #. Type the name of the game for which you are making the mod , TitleID, version, what mod it is etc etc.
 
 Keep the following lines:
 
@@ -139,9 +139,9 @@ In our example it would be something like this:
 
 `002B9FC8 0170201E`
 
-0170201E = fmov s1, #2.375. Remember to use the ARMConverter site to obtain 0170201E or similar value.
+0170201E = fmov s1, #2.375. Remember to use the [ARMConverter site](https://armconverter.com/) to obtain the 0170201E result or similar result.
 
-And that's all, now test the mod. 
+And that's all. Take another look at the template if you've doubts and finally: test your mod. 
 
 If it works and changes the aspect ratio, that would be all, if not, you would have to keep trying offsets and instructions until you find the expected result.
 
