@@ -149,7 +149,7 @@ If it works and changes the aspect ratio, that would be all, if not, you would h
 
 Let's go back to the screenshot again:
 
-![image](https://i.imgur.com/cCPcWvW.png
+![image](https://i.imgur.com/cCPcWvW.png)
 
 I clicked on `71029b5108` and then go to `Data` and click on `Float`. Now we see this info: `float 1.777778`. Save (Press Control S)
 
