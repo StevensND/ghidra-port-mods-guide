@@ -1,3 +1,37 @@
+# Basic concepts that you MUST know before starting the guide.
+
+Understanding these concepts is **basic to this guide**. If after the explanation you are not able to understand it, **please don't continue** with the guide.
+
+**What is an address/offset**
+
+To understand this I'm going to take the next screenshot as example:
+
+![imagen](https://i.imgur.com/egkcbbe.png)
+
+Let's represent this screenshot as follows:
+
+`0194EA7C ||||| 14000014`
+
+**Why I use a separator slash**: 
+
+The left part will be the **Address or Offset** that we need to look up in Ghidra **(0194EA7C)** while the right part will be the instruction **(14000014)** that we will give to this Address/Offset.
+
+Normally Ghidra offsets will start with 71 (**NOTE**: not always. There are some older games that can start with different numbers).
+
+Let's take a look at the next Ghidra screenshot:
+
+![imagen](https://i.imgur.com/t7A8bRV.png)
+
+Look at the colors:
+
+- The column starting with 71, shown in white, would be all our Ghidra offsets.
+
+- The rest of the columns and colors would represent our instruction.
+
+**In order to make our mod, we need to know the Ghidra offset or address.** 
+
+At first, we don't know it, **that's why we will use Cheat Engine + GDB and some scripts made in Python to find out this offset/address**.
+
 # Finding CE Values
 
 We're going to start opening Yuzu and Cheat Engine.
