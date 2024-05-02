@@ -1,7 +1,5 @@
 ## Things that you should do and check before continue
 
->[!IMPORTANT]
-
 At this point I suggest you [open the following link](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/RyujinxSteps.md) in a new tab or window. You will need to check it out to understand the following steps as well as to be able to use Ghidra.
 
 **Please, extract the ExeFS and get the nsobid/BID**
