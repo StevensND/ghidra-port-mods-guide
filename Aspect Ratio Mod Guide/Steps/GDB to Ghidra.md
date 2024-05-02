@@ -234,7 +234,7 @@ We will do this to avoid possible conflicts the next time we want to repeat the 
 
 Press S key (Search Memory) and in Hex type our value in Hex (0x3fe38e3b). Then click on Search All.
 
-In case [we find something](https://i.imgur.com/SFmMOPF.png) we would only have to follow the last steps **(check the What you should do now + Writing my mod code)** again to give an instruction to the offset/address and that's it.
+In case [we find something](https://i.imgur.com/SFmMOPF.png) we would only have to follow the last steps **(check the What you should do now + Writing my mod code)** sections again to give an instruction to the offset/address and that's it.
 
 Otherwise, go to `Analysis` -> `One Shot` and click on `Aggressive Instruction Finder`.
 
