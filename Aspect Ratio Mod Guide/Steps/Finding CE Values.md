@@ -1,8 +1,8 @@
-# Basic concepts that you MUST know before starting the guide.
+# Basic concepts that you MUST know before starting the guide
 
 Understanding these concepts is **basic to this guide**. If after the explanation you are not able to understand it, **please don't continue** with the guide.
 
-**What is an address/offset**
+**What is an address/offset**:
 
 To understand this I'm going to take the next screenshot as example:
 
@@ -24,13 +24,15 @@ Let's take a look at the next Ghidra screenshot:
 
 Look at the colors:
 
-- The column starting with 71, shown in white, would be all our Ghidra offsets.
+- The column starting with 71, **shown in white**, would be all our Ghidra offsets.
 
 - The rest of the columns and colors would represent our instruction.
 
 **In order to make our mod, we need to know the Ghidra offset or address.** 
 
 At first, we don't know it, **that's why we will use Cheat Engine + GDB and some scripts made in Python to find out this offset/address**.
+
+Otherwise, if we knew it directly, we wouldn't be using Cheat Engine + GDB and we would only use Ghidra.
 
 # Finding CE Values
 

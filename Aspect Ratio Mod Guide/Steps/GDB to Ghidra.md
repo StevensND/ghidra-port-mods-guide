@@ -1,3 +1,15 @@
+## Things that you should do and check before continue
+
+>[!IMPORTANT]
+
+At this point I suggest you [open the following link](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/RyujinxSteps.md) in a new tab or window. You will need to check it out to understand the following steps as well as to be able to use Ghidra.
+
+**Please, extract the ExeFS and get the nsobid/BID**
+
+Then continue [setting up Ghidra](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)
+
+## Some notes. Take a look at them
+
 > [!TIP]
 Maybe instead of using this script you want to use another script for a specific game.
 
@@ -49,7 +61,99 @@ One modifies the overworld and the other modifies the AR in the level I am playi
 
 However `71029b5108` modifies this at the same time.
 
-I suggest you right click on `71029b5108` and then go to `Data` and click on `Float`. Now we see this info: `float 1.777778`. Save (Press Control S)
+## What you should do now
+
+On May 2, 2024 I add this information since from this moment, users following this guide were copying literally what I was doing instead of trying to understand the guide and the explanation.
+
+Let's go back to the screenshot again:
+
+![image](https://i.imgur.com/cCPcWvW.png)
+
+**Remember that in this case we got two XREF: FUN_71002b9614 and FUN_710069e47**. 
+
+Click on one of them, for instance FUN_71002b9614.
+
+I've this result:
+
+![imagen](https://i.imgur.com/t7A8bRV.png)
+
+From here **we will focus on all values starting with s** (s0, s1, s2, s3 ...) and start testing our mod.
+
+Keep in mind that from this point on it's all trial and error, so finding the right offset may take some time and may not be as fast as you expected.
+
+For instance, I could take `71002b9fc8` and start writing my mod. The full line is:
+
+`71002b9fc8 01 10 2c 1e     fmov       s1,0x3f000000`
+
+I could change `fmov s1,0x3f000000` and convert it to: `fmov s1, #2.375`
+
+## Writing my mod code
+
+I assume that you have already extracted the main file (ExeFS) and have analyzed it in Ghidra as I advised you before starting these steps.
+
+Now, all you've to do is open your mod directory in your emulator. 
+
+Once this folder is opened, in the same directory, create a new folder.
+
+Call it `Test` and inside this Test folder create another folder called `exefs`.
+
+Inside this exefs folder, create a text file and call it whatever you want ... for example: 1.0.2. **Make sure that the file extension is .pchtxt**.
+
+You can create a file with a .txt extension and then change the extension to .pchtxt by changing the file name and extension.
+
+Open this .pchtxt file and use the following information as a template:
+
+```
+@nsobid-F91868B88F60D3D59009DB3389FDE314A6A32FCD
+
+# Super Mario Bros. Wonder [010015100B514000] v1.0.1 - 21:9 Aspect Ratio
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 21:9 Aspect Ratio
+
+@enabled
+029B5108 54551540
+@stop
+
+@StevensND
+@KeatonTheBot
+
+https://linktr.ee/stevenssv2
+https://linktr.ee/keatonthebot
+```
+
+Here you should change the nsobid (you should already know how to get it beforehand), the next line starting with # with the name of the game, TitleID, version, what mod it is etc etc.
+
+Keep the following lines:
+
+```
+@flag print_values
+@flag offset_shift 0x100
+```
+
+Re-write what the mod is about and **the most important thing to change starts from @enabled**
+
+Write the final offset you have obtained from Ghidra and then the instruction.
+
+In our example it would be something like this:
+
+`002B9FC8 0170201E`
+
+0170201E = fmov s1, #2.375. Remember to use the ARMConverter site to obtain 0170201E or similar value.
+
+And that's all, now test the mod. 
+
+If it works and changes the aspect ratio, that would be all, if not, you would have to keep trying offsets and instructions until you find the expected result.
+
+## What I did for this Mario Wonder Aspect Ratio Mod (only useful in this game)
+
+Let's go back to the screenshot again:
+
+![image](https://i.imgur.com/cCPcWvW.png
+
+I clicked on `71029b5108` and then go to `Data` and click on `Float`. Now we see this info: `float 1.777778`. Save (Press Control S)
 
 Do you remember when I searched for `1.77777802` instead of `1.777777791` or `1.777777777`? ... Well, it was because of this.
 
