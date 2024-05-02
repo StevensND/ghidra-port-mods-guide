@@ -51,7 +51,7 @@ So ... this is Ghidra:
 
 ![image](https://i.imgur.com/cCPcWvW.png)
 
-What I did was press the G key on the keyboard and type `71029B5108`
+What I did was press the G key on the keyboard and type `71029B5108` to go directly to my offset to explain this example.
 
 As you can see I got two XREF: FUN_71002b9614 and FUN_710069e47. 
 
