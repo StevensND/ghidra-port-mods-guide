@@ -240,6 +240,10 @@ Otherwise, go to `Analysis` -> `One Shot` and click on `Aggressive Instruction F
 
 **Remember to do all of this only when you have finished analyzing the main file**. Wait for it to finish: look at `undefined (1)` text.
 
+You will know that it's over when you see undefined (1) at the bottom right and no more analysis is being done
+
+![imagen](https://i.imgur.com/WtpFX1M.png)
+
 Sometimes by doing this we can find debug symbols that were hidden before.
 
 We can also go to `Search` and click on `Program Text`.
