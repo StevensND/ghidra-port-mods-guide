@@ -2,9 +2,11 @@
 
 At this point I suggest you [open the following link](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/RyujinxSteps.md) in a new tab or window. You will need to check it out to understand the following steps as well as to be able to use Ghidra.
 
-**Please, extract the ExeFS and get the nsobid/BID**
+**Please, extract the ExeFS files and get the nsobid/BID**
 
 Then continue [setting up Ghidra](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)
+
+**Remember to analyze the main file** extracted from the ExeFS files using Ghidra. Otherwise, you can't continue with the guide.
 
 ## Some notes. Take a look at them
 
@@ -232,7 +234,13 @@ We will do this to avoid possible conflicts the next time we want to repeat the 
 
 # Final Tips
 
-Press S key (Search Memory) and in Hex type our value in Hex (0x3fe38e3b). Then click on Search All.
+Press S key (Search Memory) and in Hex type our value in Hexadecimal/Hex (0x3fe38e3b). Then click on Search All.
+
+0x3fe38e3b (Hex) = 1.77777802 (Decimal).
+
+You can use the [Floating Point Converter site](https://www.h-schmidt.net/FloatConverter/IEEE754.html) to get this value.
+
+![image](https://i.imgur.com/7c73OOj.png)
 
 In case [we find something](https://i.imgur.com/SFmMOPF.png) we would only have to follow the last steps **(check the What you should do now + Writing my mod code)** sections again to give an instruction to the offset/address and that's it.
 
