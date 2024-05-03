@@ -234,7 +234,7 @@ We will do this to avoid possible conflicts the next time we want to repeat the 
 
 # Final Tips
 
-Press S key (Search Memory), select Hex and then type our value in Hexadecimal/Hex (0x3fe38e3b). Then click on Search All.
+Press the S key on your keyboard (Search Memory), select Hex and then type our value in Hexadecimal/Hex (0x3fe38e3b). Then click on Search All.
 
 ![image](https://i.imgur.com/7ef8geC.png)
 
