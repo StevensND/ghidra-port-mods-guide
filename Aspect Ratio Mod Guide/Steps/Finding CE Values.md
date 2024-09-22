@@ -54,7 +54,7 @@ You'll see the gdb-multiarch console:
 
 ![image](https://i.imgur.com/L55T4rY.png)
 
-Grab our main commands and **copy & paste them** into the `gdb-multiarch console`. Then **Press Enter**. You'll see a warning message. Don't worry, just `Press C` key and Enter (if it's neccesary).
+Grab our [MAIN COMMANDS](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Aspect%20Ratio%20Mod%20Guide/Info/Commands) and **copy & paste them** into the `gdb-multiarch console`. Then **Press Enter**. You'll see a warning message. Don't worry, just `Press C` key and Enter (if it's neccesary).
 
 ![image](https://i.imgur.com/ZoNAfrL.png)
 
