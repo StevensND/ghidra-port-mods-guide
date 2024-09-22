@@ -37,7 +37,7 @@ Otherwise, if we knew it directly, we wouldn't be using Cheat Engine + GDB and w
 # Finding CE Values
 
 > [!IMPORTANT]
-Open the [INFO](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Aspect%20Ratio%20Mod%20Guide/Info) in a new tab. You're going to need it for the guide.
+Open the **[IMPORTANT INFO](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Aspect%20Ratio%20Mod%20Guide/Info)** in a new tab. You're going to need it for the guide.
 
 We're going to start opening Yuzu and Cheat Engine.
 
