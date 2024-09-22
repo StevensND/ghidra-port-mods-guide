@@ -81,9 +81,9 @@ Go to `Emulation` and click on `Configure`. Then click on `Debug`. Finally click
 ![image](https://i.imgur.com/LcUWQ1V.png)
 
 > [!NOTE]
-Be sure that you enable everything in the settings. Otherwise you're going to have issues and some things and scripts won't work.
+Be sure that you enable **EVERYTHING that I said** in the settings. Otherwise you're going to have issues and some things and scripts won't work.
 
-**REMEMBER**: When you want to go back to playing the game as you normally would, you will have to disable this option.
+**REMEMBER**: When you want to go back to play the game as you normally would, you will have to disable this option. Otherwise, **the game won't boot/run.**
 
 We have finished with the Pre-Setup. Next I will give you some [important information](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Aspect%20Ratio%20Mod%20Guide/Info) that you need to know and keep in mind to make this mod, so open this link in a new tab.
 
