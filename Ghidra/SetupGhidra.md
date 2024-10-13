@@ -7,6 +7,9 @@
 ![imagen](https://i.gyazo.com/204fc945610c663fedfc4c3d0741bc7c.png)
 
 2.	Get [SwitchLoader](https://github.com/StevensND/Ghidra-Switch-Loader/releases) and place it somewhere you can find it easily. Don’t unzip it. It’s not neccesary. Remember to install Java JDK too.
+
+> [!NOTE]
+If you want to know how to compile Switch Loader on your own PC, [HERE'S THE VIDEO TUTORIAL](https://www.youtube.com/watch?v=qZl6JnniSxo)
    
 3.	On Ghidra click on File -> Install Extensions and click on the "+ icon". Search for the .zip file (SwitchLoader) and click on OK and install it. It should look like this:
 
