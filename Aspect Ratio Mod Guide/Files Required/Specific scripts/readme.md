@@ -29,6 +29,8 @@ Usually **the script and most games use** `0x0080004000` instead of `0x008000500
 
 So we will need to replace the script (edit it with Notepad or Notepad++), replace that line with that value and save the script. 
 
+![imagen](https://i.imgur.com/OoCWkDf.png)
+
 Finally run the script again and you should get the right offset for Ghidra.
 
 Anyway, I leave the modified script in a .zip file
