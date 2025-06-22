@@ -139,6 +139,12 @@ If you have not been paying attention to the GDB console, an easier way to locat
 
 Open that file and then press Control F (if you're using NotePad++) or Control B (if you're using NotePad) and search for your last 3 digits. In my case: 108.
 
+**Why I know is 108?**
+
+You've to look at your **Cheat Engine Address** Colummn. Check the image below and the blue square to know what I mean.
+
+![image](https://i.imgur.com/xnkaxxu.png)
+
 Keep searching until you find something like the info below. I found this:
 
 ```
@@ -156,7 +162,7 @@ As you can see, this address was between
   0x0080004000 - 0x0083648fff Secred.nss
 ```
 
-How I knew this?. Just look at the find line:
+**How I knew this?.** Just look at the find line:
 
 ```
 find 0x80004000, 0x83648fff, 0x40182d83
