@@ -145,6 +145,8 @@ You've to look at your **Cheat Engine Address** Colummn. Check the image below a
 
 ![image](https://i.imgur.com/xnkaxxu.png)
 
+The last 3 digits of your Cheat Engine Address **must match.**
+
 Keep searching until you find something like the info below. I found this:
 
 ```
