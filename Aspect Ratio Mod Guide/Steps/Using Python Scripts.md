@@ -141,7 +141,7 @@ Open that file and then press Control F (if you're using NotePad++) or Control B
 
 **Why I know is 108?**
 
-You've to look at your **Cheat Engine Address** Colummn. Check the image below and the blue square to know what I mean.
+You've to look at your **Cheat Engine Address** Column. Check the image below and the blue square to know what I mean.
 
 ![image](https://i.imgur.com/xnkaxxu.png)
 
