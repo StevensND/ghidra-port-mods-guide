@@ -31,7 +31,18 @@ Now open the corresponding main in Ghidra. The first time you will get a window 
 
 **Remember to Enable (Switch) IPC Analyzer too**. Let Ghidra analyze the file (as I said before this may take a little or a lot of time depending on the game and the update) so do something else in the meantime and be patient. 
 
-You will know that it's over when you see undefined (1) at the bottom right and no more analysis is being done. **PLEASE ANALYZE ALL THE MAIN FILES REQUIRED before proceeding**. For the next steps I assume you have already done this.
+Also **Disable Non-Returning Functions - Discovered** option: This takes a lot of time for no benefits in game reverse engineering.
+
+> [!TIP]
+You can save this profile by clicking on Save. Give the profile a name and that's all. After that, you can select the profile by *clicking on the arrow next to the Delete Button*.
+
+Look at the screenshot if you have doubts.
+
+
+> [!WARNING]
+You will know that it's over when you see undefined (1) at the bottom right and no more analysis is being done. 
+
+**PLEASE ANALYZE ALL THE MAIN FILES REQUIRED before proceeding**. For the next steps I assume you have already done this.
 
 ![imagen](https://i.imgur.com/WtpFX1M.png)
 
