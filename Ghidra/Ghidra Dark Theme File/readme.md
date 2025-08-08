@@ -6,7 +6,7 @@
 
 2. On Ghidra, click on `Edit`, then `Theme` and finally `Import`
 
-3. Search the path where you downloaded the .zip file
+3. Search the path where you extracted the .theme file
 
 4. Select the .theme file.
 
