@@ -39,7 +39,7 @@ You can save this profile by clicking on Save. Give the profile a name and that'
 Look at the screenshot if you have doubts.
 
 
-> [!WARNING]
+> [!NOTE]
 You will know that it's over when you see undefined (1) at the bottom right and no more analysis is being done. 
 
 **PLEASE ANALYZE ALL THE MAIN FILES REQUIRED before proceeding**. For the next steps I assume you have already done this.
