@@ -1,6 +1,6 @@
 ## Offline ARMConverter
 
-In case that the [ARMConverter] website is not working, here's an alternative.
+In case that the [ARMConverter](https://armconverter.com/) website is not working, here's an alternative.
 
 Go to this [Github Repository](https://github.com/MikaCybertron/ARM-Converter) and download the files by clicking on `Code` and then `Download zip`
 
