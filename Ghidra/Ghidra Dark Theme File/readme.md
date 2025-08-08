@@ -10,4 +10,4 @@
 
 4. Select the .theme file.
 
-5. Click on OK and that's all!!.
+5. Click on OK and that's all!!
