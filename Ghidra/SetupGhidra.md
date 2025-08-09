@@ -53,7 +53,13 @@ You will know that it's over when you see undefined (1) at the bottom right and 
 > [!TIP]
 If we're going to analyze Unreal Engine games sometimes we want to search for stuff like `r.BloomQuality` or `r.DepthOfFieldQuality` 
 
-In this example I'm going to analyze Crash Bandicoot 4: It's About Time
+In this example I'm going to analyze Crash Bandicoot 4: It's About Time.  Also **I'm using Ghidra 11.4.1** for this example. 
+
+I dont' remember exactly which version changed this but if you have an older version you might have the following tab
+
+![imagen](https://i.imgur.com/xs9CcbB.png)
+
+If this is your case just click on the `Advanced` button.
 
 By default, **Ghidra won't find this** so here are the steps that we need to do to setup the search:
 
