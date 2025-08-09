@@ -47,3 +47,38 @@ You will know that it's over when you see undefined (1) at the bottom right and 
 ![imagen](https://i.imgur.com/WtpFX1M.png)
 
 [CLICK HERE to continue with the guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/GhidraSteps.md)
+
+## UNREAL ENGINE TIPS
+
+> [!TIP]
+If we're going to analyze Unreal Engine games sometimes we want to search for stuff like `r.BloomQuality` or `r.DepthOfFieldQuality` 
+
+In this example I'm going to analyze Crash Bandicoot 4: It's About Time
+
+By default, **Ghidra won't find this** so here are the steps that we need to do to setup the search:
+
+1. Go to `Search` and then click on `Memory` or just press the `S key` on your keyboard.
+
+This will open the following tab.
+
+![imagen](https://i.imgur.com/M4R3ZcO.png)
+
+2. Move your mouse over the icons until you find the one that displays the next info: `Toggles showing the search options panel`
+
+This icon is the one selected with the red square. You will see the following panel.
+
+![imagen](https://i.imgur.com/a7Ta3Iv.png)
+
+3. Click on the first square next to the `r.DephtOfFieldQuality` text and change that to `String`
+
+If I remember correctly, by default this square is set to `Hex`. **It must be String so change it**
+
+4. Focus and move your mouse to the `String Options`. Here, **you have to change the Encoding**
+
+By default is set to `US-ASCII`, so change it to `UTF-16` 
+
+5. Do the search and now you will find the desire result.
+
+> [!NOTE]
+If you still don't find anything try to change it to other option and repeat the search until you find something.
+
