@@ -11,7 +11,7 @@ So yeah ... You can only follow this guide if you own a Switch with access to ho
 
 - **Optional**: ReverseNX-Tool
 
-- **You must have**: ReverseNX
+- **You must have**: ReverseNX-RT
 
 - Ultrahand/Uberhand
 

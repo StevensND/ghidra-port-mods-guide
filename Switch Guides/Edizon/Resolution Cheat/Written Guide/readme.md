@@ -43,8 +43,28 @@ REGION is set to HEAP + MAIN
 
 ![imagen](https://i.imgur.com/Eu7PPTn.png)
 
-Now press R again and set the `VALUE`. In this case 576. After that, move to `Search Now!` and press A.
+Now press R and set the `VALUE`. In this case 576. After that, move to `Search Now!` and press A.
 
 ![imagen](https://i.imgur.com/02E2mEv.png)
+
+You will get the following results. However, we will want to narrow them.
+
+![imagen](https://i.imgur.com/4UuMCxQ.png)
+
+Go back to the game, open Ultrahand/Uberhand overlay and select `ReverseNX-RT`. 
+
+Controlled by system will be set on: `Yes`. Select `Change system control` and press A to change it to `No`
+
+Then, select `Change Mode` and press A. This will change the mode from `Handheld` to `Docked` just like the pic below shows.
+
+![imagen](https://i.imgur.com/7SQPuIL.png)
+
+Now, check the game resolutions again and you'll see that the resolution changed to 1280x720 on Docked.
+
+![imagen](https://i.imgur.com/WOOhVto.png)
+
+
+
+
 
 
