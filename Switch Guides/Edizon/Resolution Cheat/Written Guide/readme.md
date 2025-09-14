@@ -106,8 +106,25 @@ However, **we can't do the cheat yet**. If we close the game the resolution will
 
 Go back to Edizon SE and open the `Memory Editor` again. 
 
-On the `Memory Editor` press B to prepare the jumpback.
+On the `Memory Editor`, select the one ending in `2D0` and press B to prepare the jumpback.
 
 ![imagen](https://i.imgur.com/lkiAfb7.png)
+
+When you see the options, press R, `Page Down`, until you see the first `Main +` result. In this case `Main + 078883F0` 
+
+>[!NOTE]
+Remember that were setting the height (720). 720 = 2D0.
+
+If we want to set the width, we'll need to select another `Main +`. 
+
+We will also have to do this if we want to change the Docked resolution. This means another `Main +` to set 1920 and another one to set `1080`.
+
+![imagen](https://i.imgur.com/chky6Ih.png)
+
+Now press Y to `Pick Source`. Now look at the pic below.
+
+![imagen](https://i.imgur.com/rEDCw1b.png)
+
+
 
 
