@@ -26,3 +26,7 @@ By default, Silksong runs at 1024x576 on Handheld. Press the HOME button and ope
 Run Edizon SE.
 
 ![imagen](https://i.imgur.com/Rl0UzdH.png)
+
+Edizon SE will open. Then press Y to `Search RAM`
+
+![imagen](https://i.imgur.com/sWUAq7p.png)
