@@ -102,7 +102,7 @@ Now go back to the game, be sure that you have the `Game Resolutions` overlay op
 
 ![imagen](https://i.imgur.com/AYRdRM3.png)
 
-However, if we can't do the cheat yet. If we close the game the resolution will go back to `1024x576`. We need to do a Jumpback.
+However, **we can't do the cheat yet**. If we close the game the resolution will go back to `1024x576`. We need to do a Jumpback.
 
 Go back to Edizon SE and open the `Memory Editor` again. 
 
