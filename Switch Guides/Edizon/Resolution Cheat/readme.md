@@ -17,7 +17,7 @@ So yeah ... You can only follow this guide if you own a Switch with access to ho
 
 - Status Monitor
 
-- Edizon (App + Overlay)
+- Edizon (Homebrew App + Overlay)
 
 >[!TIP]
 You can use [this guide](https://rentry.co/howtoget60fps) to learn how to setup all of this tools.
