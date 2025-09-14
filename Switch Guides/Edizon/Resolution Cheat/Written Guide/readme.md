@@ -117,7 +117,7 @@ Remember that were setting the height (720). 720 = 2D0.
 
 If we want to set the width, we'll need to select another `Main +`. 
 
-**We will also have to do this if we want to change the Docked resolution**. This means search for/select another `Main +` to set 1920 and another one to set `1080`.
+**We will also have to do this if we want to change the Docked resolution**. This means search for/select another `Main +` to set `1920` and another one to set `1080`.
 
 ![imagen](https://i.imgur.com/chky6Ih.png)
 
