@@ -63,7 +63,22 @@ Now, check the game resolutions again and you'll see that the resolution changed
 
 ![imagen](https://i.imgur.com/WOOhVto.png)
 
+Now Press the HOME button, open the homebrew menu and open Edizon again.
 
+On Edizon, press Y to `Search again` and change the `VALUE` to 720. Then select `Search Now!` and press A. This will narrow the results.
+
+![imagen](https://i.imgur.com/KF7AKsH.png)
+![imagen](https://i.imgur.com/NZV0xBc.png)
+
+Now go back again to the game, open Ultrahand/Uberhand, select `ReverseNX-RT` and change the mode to `Handheld`.
+
+![imagen](https://i.imgur.com/KGoF942.png)
+
+You can check the `Game Resolutions` again if you want to check that now the resolution changed to `1024x576` again.
+
+Press the HOME button, open the homebrew menu and open Edizon again. 
+
+n Edizon, press Y to `Search again` and change the `VALUE` to 576. Then select `Search Now!` and press A. This will narrow the results.
 
 
 
