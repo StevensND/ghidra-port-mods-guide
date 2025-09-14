@@ -125,6 +125,112 @@ Now press Y to `Pick Source`. Now look at the pic below.
 
 ![imagen](https://i.imgur.com/rEDCw1b.png)
 
+Press R to `Forward` until you see again the `500` and `2D0`
 
+Now you'll see that you have something like `z=01 main+78883F0(38CA404FC0)+AFE4`
 
+Select `2D0` and press the + button to add a bookmark (BM add). Enter a label and press + again.
 
+You'll see a notification saying `Adress added to bookmark!`
+
+![imagen](https://i.imgur.com/20w59dF.png)
+
+Now Press `ZL + B` to quit. After that press `L` (BM toggle).
+
+You'll see two bookmars. The one we need is the second one.
+
+![imagen](https://i.imgur.com/KIfnP3b.png)
+
+Now press `ZL + A` to Add Cheat. This will create the cheat.
+
+![imagen](https://i.imgur.com/CXHE4fy.png)
+
+Now go back to the game, open Ultrahand/Uberhand and select `Edizon`
+
+![imagen](https://i.imgur.com/t2krNY8.png)
+
+Press A and you'll see all the available cheats that you have. Press A again to enable the cheat.
+
+![imagen](https://i.imgur.com/Iq5xJtU.png)
+
+Check the `Game Resolutions` overlay again and you will see that now the height is set to `720`
+
+Go back to Edizon SE. In case you don't see the bookmarks, press L again. Select the second bookmark and press the right joystick to open the `Memory Editor`
+
+Here, select the one ending in `400` and press B to prepare the Jumpback
+
+![imagen](https://i.imgur.com/cCT5XLm.png)
+
+Now it's your time to choose another `Main +` different from the one we previously choosed before. This will set our width.
+
+![imagen](https://i.imgur.com/9e9StzH.png)
+
+Now change the value again to 1280 (500). Press + to add the bookmark, enter the label, press `ZL + B` to quit and press `L` in case that you don't see the bookmarks.
+
+Select the second option again.
+
+![imagen](https://i.imgur.com/ySG871s.png)
+
+Press `ZL + A` to add the cheat and go back to the game. Open the `Game Resolutions` overlay and check the resolution.
+
+Now the game should be properly set to `1280x720`.
+
+Now back to Edizon SE, move to the cheats tab by moving the left joystick to the left, select the cheats and press the ZL + left joystick to `Write To File`
+
+![imagen](https://i.imgur.com/JJQLCiz.png)
+
+We're done. Now you can do a test by closing the game, run the game again and open Ultrahand/Uberhand. Select Edizon and enable the cheats.
+
+Check the resolution again with the `Game Resolutions` overlay. If it's `1280x720` you're good.
+
+Now it's time to move to our PC. Use DBI with the `MT Responder` option, or a `FTP Client` or just plug your SD card into your PC.
+
+On your SD card, open the `atmosphere folder`.
+
+Now follow the following path:
+
+`atmosphere/contents/010013C00E930000/cheats` you should see two files. One with the BID of your game update and other named toggles.
+
+Drag the one that is not toggles into your desktop and edit the file with Notepad or Notepad++. You'll see something like this:
+
+```
+[720]
+580F0000 078883F0
+780F0000 0000AFE4
+640F0000 00000000 000002D0
+[1280]
+580F0000 07891490
+780F0000 0000B010
+640F0000 00000000 00000500
+```
+
+We can merge all together and leave it like this:
+
+```
+[720p Handheld - 1080p Docked]
+580F0000 078883F0
+780F0000 0000AFE4
+640F0000 00000000 000002D0
+580F0000 07891490
+780F0000 0000B010
+640F0000 00000000 00000500
+```
+
+However for some reason in this game, this doesn't work properly if we want to set 1080p for Docked and 720p for Handheld. Only one will work while the other will keep the default resolution.
+
+So ... to solve this we're going to edit the .txt, leave it like this and save it:
+
+```
+[720p Handheld - 1080p Docked]
+580F0000 078883F0
+780F0000 0000AFE4
+640F0000 00000000 00000000
+```
+
+640F0000 00000000 00000000 is appling 720p for Handheld and 1080p for Docked, which means at the end ... we only needed 1 `Main +` also known as address/offset.
+
+This applies to this case; I don't know if the same thing happens in other games. 
+
+**This will correctly apply the resolution changes.**
+
+And that's all folks ... That's how you create the resolution cheat :)
