@@ -31,7 +31,7 @@ Edizon SE will open. Then press Y to `Search RAM`
 
 ![imagen](https://i.imgur.com/sWUAq7p.png)
 
-Now press R to be able to move between the options.
+Now press L to be able to move between the options.
 
 Be sure that:
 
@@ -42,3 +42,9 @@ REGION is set to HEAP + MAIN
 ```
 
 ![imagen](https://i.imgur.com/Eu7PPTn.png)
+
+Now press R again and set the `VALUE`. In this case 576. After that, move to `Search Now!` and press A.
+
+![imagen](https://i.imgur.com/02E2mEv.png)
+
+
