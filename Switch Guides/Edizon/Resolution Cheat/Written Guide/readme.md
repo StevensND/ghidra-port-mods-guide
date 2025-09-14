@@ -30,3 +30,15 @@ Run Edizon SE.
 Edizon SE will open. Then press Y to `Search RAM`
 
 ![imagen](https://i.imgur.com/sWUAq7p.png)
+
+Now press R to be able to move between the options.
+
+Be sure that:
+
+```
+TYPE is set to u32.
+MODE is set to ==
+REGION is set to HEAP + MAIN
+```
+
+![imagen](https://i.imgur.com/Eu7PPTn.png)
