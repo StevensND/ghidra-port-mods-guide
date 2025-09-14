@@ -234,3 +234,5 @@ This applies to this case; I don't know if the same thing happens in other games
 **This will correctly apply the resolution changes.**
 
 And that's all folks ... That's how you create the resolution cheat :)
+
+Check the [video guide](https://youtu.be/iuWUp14wN08?si=ZlzrYiF_ukTWNfKz) if you still have doubts.
