@@ -78,8 +78,36 @@ You can check the `Game Resolutions` again if you want to check that now the res
 
 Press the HOME button, open the homebrew menu and open Edizon again. 
 
-n Edizon, press Y to `Search again` and change the `VALUE` to 576. Then select `Search Now!` and press A. This will narrow the results.
+On Edizon, press Y to `Search again` and change the `VALUE` to 576. Then select `Search Now!` and press A. This will narrow the results again.
 
+Now I only got 3 results and you can see in the pic below. You can repeat this steps if you want to try to narrow the results once again.
 
+However, in this case we can't narrow the results again. It will give 3 results.
+
+Here you have to try each option. In this case, it's the second option that I already have selected, so I'll just press the right joystick.
+
+Pressing the right joystick means open the `Memory Editor`
+
+![imagen](https://i.imgur.com/EcqeDQy.png)
+
+Below, you can see the options that you have. Select the one ending in `400` and press A to `Edit the value`.
+
+Type 1280 and press A. Select the one ending in `240` and press A. Type`720` and press A.
+
+This will change our values to `500` and `2D0` as you can see in the following pic
+
+![imagen](https://i.imgur.com/Z2RlbDM.png)
+
+Now go back to the game, be sure that you have the `Game Resolutions` overlay open and check the resolution. As you can see now we have `1280x720` on Handheld.
+
+![imagen](https://i.imgur.com/AYRdRM3.png)
+
+However, if we can't do the cheat yet. If we close the game the resolution will go back to `1024x576`. We need to do a Jumpback.
+
+Go back to Edizon SE and open the `Memory Editor` again. 
+
+On the `Memory Editor` press B to prepare the jumpback.
+
+![imagen](https://i.imgur.com/lkiAfb7.png)
 
 
