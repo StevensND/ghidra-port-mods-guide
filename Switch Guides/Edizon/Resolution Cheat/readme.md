@@ -24,6 +24,14 @@ You can use [this guide](https://rentry.co/howtoget60fps) to learn how to setup 
 
 However I suggest you to use a pack. In my case I'm using [NXVenom Pack](https://github.com/CatcherITGF/NX-Venom/) that already include all of this.
 
-## Video guide
+## Video Guide
 
 Watch [this video guide](https://youtu.be/iuWUp14wN08?si=ohZqVCei2XIPBXUB) in case you don't understand something or have missed something.
+
+I suggest you watch the video as well as read the written guide at the same.
+
+## Written Guide
+
+Click here to access to the written guide.
+
+Here you can follow the guide quietly step by step and check the screenshots in case you don't understand something from the video guide.
