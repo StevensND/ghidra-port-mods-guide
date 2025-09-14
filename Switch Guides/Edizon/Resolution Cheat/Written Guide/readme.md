@@ -20,3 +20,9 @@ You will see the Game Resolutions Overlay.
 
 ![imagen](https://i.imgur.com/7eV0KpS.png)
 ![imagen](https://i.imgur.com/w8sbR1r.png)
+
+By default, Silksong runs at 1024x576 on Handheld. Press the HOME button and open the homebrew menu again.
+
+Run Edizon SE.
+
+![imagen](https://i.imgur.com/Rl0UzdH.png)
