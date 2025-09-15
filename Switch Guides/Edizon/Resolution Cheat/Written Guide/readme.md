@@ -238,6 +238,8 @@ I replaced the following:
 
 Making this change will resolve that issue. Also, if you want to use GDB to convert the cheat to IPS format, **AFE4 will be a problem**.
 
+If you experience this problem, you may have chosen a bad pointer. Repeat the steps and choose another one.
+
 This applies to this case; I don't know if the same thing happens in other games. 
 
 **This will correctly apply the resolution changes.**
