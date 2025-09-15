@@ -225,11 +225,18 @@ So ... to solve this we're going to edit the .txt, leave it like this and save i
 ```
 [720p Handheld - 1080p Docked]
 580F0000 078883F0
-780F0000 0000AFE4
+780F0000 00008FE0
 640F0000 00000000 00000000
 ```
 
 `640F0000 00000000 00000000` is appling 720p for Handheld and 1080p for Docked, which means at the end ... we only needed 1 `Main +` also known as address/offset.
+
+>[!WARNING]
+I replaced the following:
+
+`AFE4` was replaced with `8FE0`. **Why?**: As the game progresses, the resolution will revert to `1024x576` in some areas.
+
+Making this change will resolve that issue. Also, if you want to use GDB to convert the cheat to IPS format, **AFE4 will be a problem**.
 
 This applies to this case; I don't know if the same thing happens in other games. 
 
