@@ -10,7 +10,9 @@ Now select the game, press A, scroll up with the arrows and select Handheld. The
 
 ![imagen](https://i.imgur.com/Lh2DLYn.png)
 
-Check that the game now says Handheld instead of System. **We're forcing the game to run on Handheld by default** instead of making the System select Handheld or Docked depending on how we're using our Switch.
+Check that the game now says Handheld instead of System. 
+
+**We're forcing the game to run on Handheld by default** instead of making the System select Handheld or Docked depending on how we're using our Switch.
 
 Now run the game, load your save and open Ultrahand/Uberhand by pressing `ZL + ZR + DPAD DOWN` simultaneously to access to the overlay.
 
