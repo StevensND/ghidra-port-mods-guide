@@ -35,3 +35,9 @@ I suggest you watch the video as well as read the written guide at the same.
 Click [HERE](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Switch%20Guides/Edizon/Resolution%20Cheat/Written%20Guide) to access to the written guide.
 
 Here you can follow the guide quietly step by step and check the screenshots in case you don't understand something from the video guide.
+
+## Thanks to
+
+- Tashi for the help with Edizon
+
+- [Fl4sh_](https://github.com/Fl4sh9174/)

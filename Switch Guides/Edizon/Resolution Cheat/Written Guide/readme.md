@@ -10,7 +10,7 @@ Now select the game, press A, scroll up with the arrows and select Handheld. The
 
 ![imagen](https://i.imgur.com/Lh2DLYn.png)
 
-Check that the game now says Handheld instead of System.
+Check that the game now says Handheld instead of System. **We're forcing the game to run on Handheld by default** instead of making the System select Handheld or Docked depending on how we're using our Switch.
 
 Now run the game, load your save and open Ultrahand/Uberhand by pressing `ZL + ZR + DPAD DOWN` simultaneously to access to the overlay.
 
@@ -232,6 +232,11 @@ So ... to solve this we're going to edit the .txt, leave it like this and save i
 This applies to this case; I don't know if the same thing happens in other games. 
 
 **This will correctly apply the resolution changes.**
+
+>[!NOTE]
+If you did the optional step of using  ReverseNX-Tool, now you can change it from `Handheld` to `System`
+
+This will make the game run on Handheld or Docked by default instead of force it depending on how you're using your Switch.
 
 And that's all folks ... That's how you create the resolution cheat :)
 
