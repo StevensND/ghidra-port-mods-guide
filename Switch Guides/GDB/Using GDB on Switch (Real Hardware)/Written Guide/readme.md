@@ -29,6 +29,9 @@ Open `Ultrahand/Uberhand` and go to `Sysmodules`. Then locate `SaltyNX` and pres
 
 ![imagen](https://i.imgur.com/MMPDC46.png)
 
+>[!NOTE]
+If SaltyNX is not disabled, you will get an error while trying to attach the game
+
 After this, restart your Switch and wait until everyhing loads once again. After that, go to your PC and open GDB.
 
 Once GDB is open, you will need to type the following command line:
