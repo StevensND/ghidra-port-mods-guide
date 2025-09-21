@@ -11,9 +11,15 @@ monitor wait application
 
 attach
 
+c (This means continue)
+
+Control + C (This will freeze the game and you'll be able to type new commands)
+
 x/gx MAIN + Cheat Address
 x/wx Result + Jumpback Pointer Address
 
-awatch
+awatch *
+
+c (This means continue)
 
 x/20i $pc-40
