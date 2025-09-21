@@ -3,6 +3,8 @@ This guide is **made for real hardware**, not emulators.
 
 So yeah ... You can only follow this guide if you own a Switch with access to homebrew apps.
 
+However you can use the .pchtxt mod on emulators too.
+
 ## Requirements
 
 - Switch with Atmosphère and access to homebrew apps
@@ -13,7 +15,7 @@ So yeah ... You can only follow this guide if you own a Switch with access to ho
 
 - MicroSD reader or another way to connect your Switch to your PC (Hekate USB option, DBI MTP Responder, FTP Client ...)
 
-- [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases)
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases) + [How to setup Ghidra guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)
 
 - [Ghidra-Switch-Loader](https://github.com/StevensND/Ghidra-Switch-Loader/releases)
 
