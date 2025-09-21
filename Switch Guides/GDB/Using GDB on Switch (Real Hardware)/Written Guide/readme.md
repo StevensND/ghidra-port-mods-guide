@@ -348,4 +348,6 @@ If we want to update the Silksong mod, we will need to search for bytes.
 
 `08 5c 40 f9 09 e4 40 b9 14 55 40 29` then focus on `ldp`. After that, search for new `NOPs` and finally do the codecave.
 
+![imagen](https://i.imgur.com/Jy4BunG.png)
+
 **Get the new nsobid** and replace the rest with the proper info, offsets/addresses and instructions.
