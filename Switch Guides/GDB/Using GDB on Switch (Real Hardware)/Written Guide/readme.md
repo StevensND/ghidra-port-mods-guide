@@ -85,7 +85,7 @@ Select the second option in modules in my case:
 0x65f1206000 - 0x65f723ffff .elf
 ```
 
-Now, let's take a look to our cheat:
+`0x65f1206000` is going to be our MAIN. Now, let's take a look to our cheat:
 
 ```
 [720p Handheld - 1080p Docked]
