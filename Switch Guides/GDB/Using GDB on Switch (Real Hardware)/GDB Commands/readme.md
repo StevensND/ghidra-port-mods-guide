@@ -1,4 +1,4 @@
-Type the following commands one by one and press after the type:
+Type the following commands one by one and press Enter after typing
 
 ```
 set logging enabled on
