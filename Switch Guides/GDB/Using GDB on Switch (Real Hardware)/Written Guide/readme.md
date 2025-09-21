@@ -1,14 +1,42 @@
-**Optional**: Open ReverseNX-Tool and make the game run at Handheld by default.
+I'm going to [follow this guide](https://gist.github.com/jam1garner/c9ba6c0cff150f1a2480d0c18ff05e33) to explain this first step.
 
-As I said, this step is optional. Open the homebrew menu and run Reverse-NX Tool.
+We will need to modify the `system_settings.ini` file to be able to use GDB.
 
-![imagen](https://i.imgur.com/ycjPsar.png)
+This file is located in: `sd:/atmosphere/config/system_settings.ini`
 
-For this tutorial, I'm going to mod Hollow Knight: Silksong resolution.
+Plug your SD card to your PC and locate this file.
 
-Now select the game, press A, scroll up with the arrows and select Handheld. Then press A.
+![imagen](https://i.imgur.com/tzAlv82.png)
 
-![imagen](https://i.imgur.com/Lh2DLYn.png)
+Do a backup of this file.  Now edit the original with Notepad or Notepad++ and locate the line starting with `[atmosphere]`
+
+At the end of this line add the following:
+
+```
+enable_htc = u8!0x0
+enable_standalone_gdbstub = u8!0x1
+```
+
+![imagen](hhttps://i.imgur.com/XwyFdqW.png)
+
+Save the file and be sure that the file is edited with the new lines. Otherwise, GDB won't work.
+
+Now turn on your Switch wait a while until everything loads and get ready to open GDB-multiarch on your PC.
+
+Once GDB is open, you will need to type the following command line:
+
+`set logging enabled on` and press Enter
+
+Continue with the following line and press Enter, then continue with the next until you reach the last line:
+
+```
+set logging overwrite on
+set architecture aarch64
+target extended-remote YOUR SWITCH IP:22225
+monitor wait application
+```
+
+![imagen](https://i.imgur.com/eWJEjU0.png)
 
 Check that the game now says Handheld instead of System. 
 
