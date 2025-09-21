@@ -49,6 +49,20 @@ monitor wait application
 
 ![imagen](https://i.imgur.com/eWJEjU0.png)
 
+Here you will see that GDB displays the following error:
+
+```
+Ignoring packet error, continuing...
+```
+
+Once this error appears in GDB, you should launch the game. In my case, Hollow Knight Silksong.
+
+Now you will see that GDB shows a new message saying something like:
+
+```
+Send attach 0x8b to attach
+```
+
 Check that the game now says Handheld instead of System. 
 
 **We're forcing the game to run on Handheld by default** instead of making the System select Handheld or Docked depending on how we're using our Switch.
