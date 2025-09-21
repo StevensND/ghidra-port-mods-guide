@@ -19,7 +19,9 @@ enable_standalone_gdbstub = u8!0x1
 
 ![imagen](https://i.imgur.com/XwyFdqW.png)
 
-Save the file and be sure that the file is edited with the new lines. Otherwise, GDB won't work.
+Save the file and replace it in your SD card path. Please, check that the file is edited and that it includes the new lines. 
+
+**Otherwise, GDB won't work**.
 
 Now turn on your Switch wait a while until everything loads and get ready to open GDB-multiarch on your PC.
 
