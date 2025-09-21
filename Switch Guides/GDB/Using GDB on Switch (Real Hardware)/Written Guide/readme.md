@@ -124,6 +124,9 @@ This will give us the following result:
 
 `500` is **1280 in Hexadecimal**. You can check this info in [this website](https://www.rapidtables.com/convert/number/hex-to-decimal.html?x=500)
 
+>[!NOTE]
+Remember that the default resolution for Docked is `1280x720`
+
 Now get `0x65da0ffa0`. The next command that we will type is:
 
 ```
