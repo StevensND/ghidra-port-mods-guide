@@ -36,7 +36,7 @@ If SaltyNX is not disabled, you will get an error while trying to attach the gam
 
 After this, restart your Switch and wait until everyhing loads once again. After that, go to your PC and open GDB.
 
-You have **ALL THE GDB COMMANDS** that we are going to need in [THIS LINK](https://github.com/StevensND/ghidra-port-mods-guide/tree/switch-gdb/Switch%20Guides/GDB/Using%20GDB%20on%20Switch%20(Real%20Hardware)/GDB%20Commands)
+You have **ALL THE GDB COMMANDS** that we are going to need in [THIS LINK](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Switch%20Guides/GDB/Using%20GDB%20on%20Switch%20(Real%20Hardware)/GDB%20Commands)
 
 Once GDB is open, you will need to type the following command line:
 

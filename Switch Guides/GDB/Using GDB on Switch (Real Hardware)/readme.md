@@ -44,7 +44,7 @@ I suggest you watch the video as well as read the written guide at the same.
 
 ## Written Guide
 
-Click [HERE](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Switch%20Guides/Edizon/Resolution%20Cheat/Written%20Guide) to access to the written guide.
+Click [HERE](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Switch%20Guides/GDB/Using%20GDB%20on%20Switch%20(Real%20Hardware)/Written%20Guide) to access to the written guide.
 
 Here you can follow the guide quietly step by step and check the screenshots in case you don't understand something from the video guide.
 
