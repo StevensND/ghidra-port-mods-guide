@@ -21,7 +21,7 @@ However you can use the .pchtxt mod on emulators too.
 
 - [Ghidra-Switch-Loader](https://github.com/StevensND/Ghidra-Switch-Loader/releases)
 
-- [GDB-Multiarch](https://static.grumpycoder.net/pixel/gdb-multiarch-windows/)
+- [GDB-Multiarch](https://static.grumpycoder.net/pixel/gdb-multiarch-windows/) + [GDB Commands](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Switch%20Guides/GDB/Using%20GDB%20on%20Switch%20(Real%20Hardware)/GDB%20Commands)
 
 - [Python](https://www.python.org/downloads/windows/): Download the latest stable release
 
