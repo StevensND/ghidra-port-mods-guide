@@ -17,7 +17,7 @@ enable_htc = u8!0x0
 enable_standalone_gdbstub = u8!0x1
 ```
 
-![imagen](hhttps://i.imgur.com/XwyFdqW.png)
+![imagen](https://i.imgur.com/XwyFdqW.png)
 
 Save the file and be sure that the file is edited with the new lines. Otherwise, GDB won't work.
 
