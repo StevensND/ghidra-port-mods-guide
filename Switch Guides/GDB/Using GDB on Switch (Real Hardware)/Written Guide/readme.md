@@ -23,7 +23,13 @@ Save the file and replace it in your SD card path. Please, check that the file i
 
 **Otherwise, GDB won't work**.
 
-Now turn on your Switch wait a while until everything loads and get ready to open GDB-multiarch on your PC.
+Now turn on your Switch wait a while until everything loads. Now we will need to disable SaltyNX.
+
+Open `Ultrahand/Uberhand` and go to `Sysmodules`. Then locate `SaltyNX` and press Y to turn it OFF. You must have a X icon saying OFF.
+
+![imagen](https://i.imgur.com/MMPDC46.png)
+
+After this, restart your Switch and wait until everyhing loads once again. After that, go to your PC and open GDB.
 
 Once GDB is open, you will need to type the following command line:
 
