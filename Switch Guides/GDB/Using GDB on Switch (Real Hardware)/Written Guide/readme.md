@@ -36,6 +36,8 @@ If SaltyNX is not disabled, you will get an error while trying to attach the gam
 
 After this, restart your Switch and wait until everyhing loads once again. After that, go to your PC and open GDB.
 
+You have **ALL THE GDB COMMANDS** that we are going to need in [THIS LINK](https://github.com/StevensND/ghidra-port-mods-guide/tree/switch-gdb/Switch%20Guides/GDB/Using%20GDB%20on%20Switch%20(Real%20Hardware)/GDB%20Commands)
+
 Once GDB is open, you will need to type the following command line:
 
 `set logging enabled on` and press Enter
@@ -124,7 +126,7 @@ This will give us the following result:
 0x65da0ffa0: 0x00000500
 ```
 
-`500` is **1280 in Hexadecimal**. You can check this info in [this website](https://www.rapidtables.com/convert/number/hex-to-decimal.html?x=500)
+`500` (Hexadecimal Value) is **1280 in Decimal**. You can check this info in [this website](https://www.rapidtables.com/convert/number/hex-to-decimal.html?x=500)
 
 >[!NOTE]
 Remember that the default resolution for Docked is `1280x720`
@@ -180,4 +182,170 @@ Now run the script. Copy the GDB result and paste it into the Python Script.
 
 In our case it's `0x65f3c8a9e0`. Python script result will be `7102a849e0`
 
-Now it's time to move to Ghidra. **I WILL NOT EXPLAIN HOW TO SETUP GHIDRA IN THIS GUIDE**. You can have this info in [THIS LINK](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)
+Now it's time to move to Ghidra. **I WILL NOT EXPLAIN HOW TO SETUP GHIDRA IN THIS GUIDE**. You can check this info in [THIS LINK](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)
+
+Load the main and press G key to open the `Go To` tab. Type `7102a849e0` and click on OK. We will have the following function (Also we have the `UnityEngine.Screen::get width` string showed in the Ghidra Decompiler as a reference)
+
+![imagen](https://i.imgur.com/I6UxGWt.png)
+
+We need to focus in the following lines:
+
+```
+7102a849dc 14 55 40 29     ldp        w20,w21,[x8]
+7102a849e0 89 00 00 35     cbnz       w9,LAB_7102a849f0
+```
+Here we need to know that a value is being “loaded” into w20 and w21.
+
+To verify this, we can return to GDB and type the following command. **Thanks to Tashi for the info**
+
+```
+info registers $x20 $x21
+```
+
+That will give us the following result:
+
+```
+x20            0x500               1280
+x21            0x2d0               720
+```
+
+So w20 loads `1280` and w21 loads `720` in Docked.
+
+For the mod to work, **we will need to make a codecave**. This is an "advanced" step when making mods. 
+
+Now focus on 
+
+```
+7102a849dc 14 55 40 29     ldp        w20,w21,[x8]
+```
+
+**We will need to patch this instruction**. However, before do this, we will need to do another step.
+
+Press S on your keyboard. This will open the `Search Memory` Tab.
+
+Check that is on `Hex` if you are using latest Ghidra version and then search for `1F 20 03 D5 1F 20 03 D5 1F 20 03 D5` bytes.
+
+**1F 20 03 D5 means NOP**
+
+![imagen](https://i.imgur.com/PVlmeP9.png)
+
+We will have a lot of results. Now you've to check each result until you find a `RET` and 3 NOPS together.
+
+![imagen](https://i.imgur.com/4NnZkcU.png)
+
+My selected result is `71020D7464`. Select this one and press D on your keyboard. This will make the 3 NOPS appear.
+
+![imagen](https://i.imgur.com/vtoAPKR.png)
+
+Press G key to open the `Go To` tab and return to `7102A849DC`
+
+Now it's time to patch the instruction. Click on the `ldp` area and then right click. Now select `Patch Instruction` or Press `Ctrl + Shift + G`
+
+I suggest you watch the video guide around min 09:05 to know exactly what I'm doing.
+
+I'm patching `7102A849DC` instruction with 
+
+```
+b 0x71020D7464
+```
+
+Now press G key and go back to `71020D7464`. You will need to patch `71020D7464` instruction with 
+
+```
+mov w20, #0x0
+```
+
+**Why I know is w20**
+
+I explained this before: w20 loads `1280` and w21 loads `720` in Docked.
+
+However if you remember the how to make the Resolution cheat we will only need one value due to **this game can change the resolution with just 1 offset/address and value** 
+
+That's why I selected w20 only.
+
+0x0 is `640F0000 00000000 00000000` in our cheat.
+
+We will also need to patch `71020D7468` with 
+
+```
+b 0x7102A849E0
+```
+
+Now it's time to do the .pchtxt file. Our file will look like this:
+
+```
+@nsobid-DC3E4B892043EF2345C3EAF97A177E7C
+
+# Hollow Knight: Silksong [010013C00E930000] v.1.0.28324 - 1080p Docked - 720p Handheld
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 1080p Docked - 720p Handheld
+
+@enabled
+02A849DC A24AD917 // b 0x71020D7464
+020D7464 14008052 // mov w20, #0x0
+020D7468 5EB52614 // b 0x7102A849E0
+@stop
+
+@StevensND
+https://linktr.ee/stevensmods
+https://github.com/StevensND/switch-port-mods
+```
+
+And that's all. However, [Fl4sh](https://github.com/Fl4sh9174) found a way to simplify this in this case, so you don't need to do a codecave. 
+
+The mod will look like this:
+
+```
+@nsobid-DC3E4B892043EF2345C3EAF97A177E7C
+
+# Hollow Knight: Silksong [010013C00E930000] v.1.0.28324 - 1080p Docked - 720p Handheld
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 1080p Docked - 720p Handheld
+
+@enabled
+02A84818 95000014
+@stop
+
+@StevensND
+https://linktr.ee/stevensmods
+https://github.com/StevensND/switch-port-mods
+```
+
+Now all you need to do it's convert this .pchtxt to .ips using [IPSwitch](https://github.com/3096/ipswitch/releases)
+
+You can check [this video guide](https://youtu.be/m-V6Rs2sm9w?si=-_1Y49I89_tsxwUX) by Grown Up Gaming to know how to do this.
+
+## Return everything to how it was before
+
+Remember to remove the following lines in the `system_settings.ini` file to avoid possible issues:
+
+```
+enable_htc = u8!0x0
+enable_standalone_gdbstub = u8!0x1
+```
+
+Save the file and replace it in your SD card.
+
+**Also remember to enable SaltyNX again and restar your Switch**. Otherwise you won't be able to use Status Monitor and the overlays.
+
+Having GDB and SaltyNX enabled also conflicts with Edizon or Breeze. For instance: you won't be able to save the cheat and you will have an error saying something like access denied.
+
+## Updating the Silksong mod
+
+If we want to update the Silksong mod, we will need to search for bytes.
+
+**If we are using the Fl4sh suggestion**, then we will need to search for:
+
+`e0 03 14 aa 00 01 3f d6 a0 12 00 36` then get `tbz`
+
+**If we want to go for the codecave**, then we will need to search for:
+
+`08 5c 40 f9 09 e4 40 b9 14 55 40 29` then focus on `ldp`. After that, search for new `NOPs` and finally do the codecave.
+
+**Get the new nsobid** and replace the rest with the proper info, offsets/addresses and instructions.

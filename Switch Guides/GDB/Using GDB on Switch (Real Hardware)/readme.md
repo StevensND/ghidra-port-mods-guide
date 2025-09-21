@@ -27,6 +27,8 @@ However you can use the .pchtxt mod on emulators too.
 
 - [Modified Python Script](https://github.com/StevensND/ghidra-port-mods-guide/tree/main/Aspect%20Ratio%20Mod%20Guide/Files%20Required/Specific%20scripts)
 
+- [IPSwitch](https://github.com/3096/ipswitch/releases) + [Video Guide](https://youtu.be/m-V6Rs2sm9w?si=-_1Y49I89_tsxwUX) by Grown Up Gaming to know how to use it.
+
 >[!NOTE]
 Read the info about how to modify the Python script
 
