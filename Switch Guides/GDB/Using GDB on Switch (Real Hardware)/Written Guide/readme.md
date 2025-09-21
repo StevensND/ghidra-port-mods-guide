@@ -122,6 +122,8 @@ This will give us the following result:
 0x65da0ffa0: 0x00000500
 ```
 
+`500` is **1280 in Hexadecimal**. You can check this info in [this website](https://www.rapidtables.com/convert/number/hex-to-decimal.html?x=500)
+
 Now get `0x65da0ffa0`. The next command that we will type is:
 
 ```
