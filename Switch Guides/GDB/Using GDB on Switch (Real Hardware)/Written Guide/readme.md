@@ -60,7 +60,72 @@ Once this error appears in GDB, you should launch the game. In my case, Hollow K
 Now you will see that GDB shows a new message saying something like:
 
 ```
-Send attach 0x8b to attach
+Send attach 0x8b to attach.
+```
+
+Type that into GDB and Press Enter. A new message will appear. Just type C and press Enter to continue.
+
+![imagen](https://i.imgur.com/dmnCXay.png)
+
+Load your save file. After that everything is loaded and you can move, go back to GDB and press Control C. 
+
+**The game should freeze** and now you can type commands again.
+
+![imagen](https://i.imgur.com/HUIaxZ9.png)
+
+Type the following command:
+
+```
+monitor get info
+```
+
+Select the second option in modules in my case:
+
+```
+0x65f1206000 - 0x65f723ffff .elf
+```
+
+Now, let's take a look to our cheat:
+
+```
+[720p Handheld - 1080p Docked]
+580F0000 078883F0
+780F0000 00008FE0
+640F0000 00000000 00000000
+```
+
+`078883F0` is our `Cheat Address` and `00008FE0` is our `Jumpback Pointer Address`
+
+>[!NOTE]
+Remember that after every command, you must Press Enter
+
+The next thing that we're going to type on GDB is `x/gx MAIN + Cheat Address` in our case that means:
+
+```
+x/gx 0x65f1206000+0x078883F0
+```
+
+This will give us the following result:
+
+```
+0x65f8a8e3f0: 0x000000065da06fc0
+```
+We will get `0x000000065da06fc0` and continue typing the next command `x/wx Result + Jumpback Pointer Address` in our case that means:
+
+```
+x/wx 0x000000065da06fc0+0x8fe0
+```
+
+This will give us the following result:
+
+```
+0x65da0ffa0: 0x00000500
+```
+
+Now get `0x65da0ffa0`. The next command that we will type is:
+
+```
+awatch *0x65da0ffa0
 ```
 
 Check that the game now says Handheld instead of System. 
