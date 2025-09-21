@@ -13,6 +13,8 @@ However you can use the .pchtxt mod on emulators too.
 
 - PC/Laptop
 
+- [GDB for Switch Modding Tutorial](https://gist.github.com/jam1garner/c9ba6c0cff150f1a2480d0c18ff05e33)
+
 - MicroSD reader or another way to connect your Switch to your PC (Hekate USB option, DBI MTP Responder, FTP Client ...)
 
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases) + [How to setup Ghidra guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)
