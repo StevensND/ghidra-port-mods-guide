@@ -108,6 +108,11 @@ However, **we can't do the cheat yet**. If we close the game the resolution will
 
 Go back to Edizon SE and open the `Memory Editor` again. 
 
+>[!NOTE]
+It's very important that you don't have too many sysmodules enabled. Atmosphere may crash.
+
+In addition, **I recommend that you don't use any overlay when performing this process.**
+
 On the `Memory Editor`, select the one ending in `2D0` and press B to prepare the jumpback.
 
 ![imagen](https://i.imgur.com/lkiAfb7.png)

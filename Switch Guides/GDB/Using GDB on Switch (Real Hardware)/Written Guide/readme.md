@@ -182,7 +182,15 @@ Now run the script. Copy the GDB result and paste it into the Python Script.
 
 In our case it's `0x65f3c8a9e0`. Python script result will be `7102a849e0`
 
-Now it's time to move to Ghidra. **I WILL NOT EXPLAIN HOW TO SETUP GHIDRA IN THIS GUIDE**. You can check this info in [THIS LINK](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)
+Now it's time to move to Ghidra. 
+
+## Ghidra
+
+**I WILL NOT EXPLAIN HOW TO SETUP GHIDRA IN THIS GUIDE**. You can check this info in [THIS LINK](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)
+
+I also assume that you already have a dump of the main file using NxDumptool or a Switch emulator.
+
+If not, you can see a quick demostration of NXDumpTool if you [CLICK HERE](https://youtu.be/3iWabxL_HHU?si=3r41C9s_DgAWtYDn)
 
 Load the main and press G key to open the `Go To` tab. Type `7102a849e0` and click on OK. We will have the following function (Also we have the `UnityEngine.Screen::get width` string showed in the Ghidra Decompiler as a reference)
 

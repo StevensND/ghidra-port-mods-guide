@@ -17,6 +17,12 @@ However you can use the .pchtxt mod on emulators too.
 
 - MicroSD reader or another way to connect your Switch to your PC (Hekate USB option, DBI MTP Responder, FTP Client ...)
 
+- [NxDumptool](https://github.com/DarkMatterCore/nxdumptool/releases/tag/rewrite-prerelease) to dump the ExeFS files. **You need the one called main**. 
+
+Another option is to use a Switch emulator and extract the files.
+
+You can see a quick demostration of NXDumpTool if you [CLICK HERE](https://youtu.be/3iWabxL_HHU?si=3r41C9s_DgAWtYDn)
+
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases) + [How to setup Ghidra guide](https://github.com/StevensND/ghidra-port-mods-guide/blob/main/Ghidra/SetupGhidra.md)
 
 - [Ghidra-Switch-Loader](https://github.com/StevensND/Ghidra-Switch-Loader/releases)
