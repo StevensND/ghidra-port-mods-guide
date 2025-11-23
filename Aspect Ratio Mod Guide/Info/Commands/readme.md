@@ -1,6 +1,7 @@
 Our **main commands** will be:
 
-```set logging enabled on
+```
+set logging enabled on
 set logging overwrite on
 set architecture aarch64
 target extended-remote 192.168.X.Y:6543
