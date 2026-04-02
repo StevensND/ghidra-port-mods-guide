@@ -9,6 +9,9 @@ This guide is mainly focused on how to update mods or cheats **for Yuzu or Ryuji
 You can compile SwitchLoader in your local machine following this [tutorial](https://youtu.be/qZl6JnniSxo?si=tC_Rc3-OdFZVkvDL) in case you are missing any version.
 
 - [Java JDK](https://adoptium.net/temurin/releases/?version=20). I suggest you the latest version: Java JDK 21
+
+[Alternative Download Link](https://www.oracle.com/es/java/technologies/downloads/)
+
 - [Ryujinx](https://ryujinx.org/download/) to extract the ExeFS files. You can do it using Yuzu too but IMO **Ryujinx does a better job and it’s more faster**
 - [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) or any other Hex Editor like [this one](https://hexed.it/) (online version)
 - [NSCBuilder](https://github.com/julesontheroad/NSC_BUILDER/releases) to obtain our BID in a simpler way + your own `prod.keys`
