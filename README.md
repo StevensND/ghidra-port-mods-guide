@@ -4,7 +4,11 @@ This guide is mainly focused on how to update mods or cheats **for Yuzu or Ryuji
 
 - [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases) or IDA Pro
 - [SwitchLoader Extension](https://github.com/StevensND/Ghidra-Switch-Loader/releases) if you're using Ghidra or [nxo64.py](https://github.com/reswitched/loaders/blob/master/nxo64.py) if you're using IDA Pro
-- [Java JDK](https://adoptium.net/temurin/releases/?version=20). I suggest you the latest version: Java JDK 20
+
+>[!NOTE]
+You can compile SwitchLoader in your local machine following this [tutorial](https://youtu.be/qZl6JnniSxo?si=tC_Rc3-OdFZVkvDL) in case you are missing any version.
+
+- [Java JDK](https://adoptium.net/temurin/releases/?version=20). I suggest you the latest version: Java JDK 21
 - [Ryujinx](https://ryujinx.org/download/) to extract the ExeFS files. You can do it using Yuzu too but IMO **Ryujinx does a better job and it’s more faster**
 - [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) or any other Hex Editor like [this one](https://hexed.it/) (online version)
 - [NSCBuilder](https://github.com/julesontheroad/NSC_BUILDER/releases) to obtain our BID in a simpler way + your own `prod.keys`
