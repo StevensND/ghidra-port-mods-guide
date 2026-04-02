@@ -8,7 +8,7 @@ This guide is mainly focused on how to update mods or cheats **for Yuzu or Ryuji
 >[!NOTE]
 You can compile SwitchLoader in your local machine following this [tutorial](https://youtu.be/qZl6JnniSxo?si=tC_Rc3-OdFZVkvDL) in case you are missing any version.
 
-- [Java JDK](https://adoptium.net/temurin/releases/?version=20). I suggest you the latest version: Java JDK 21
+- [Java JDK](https://adoptium.net/temurin/releases/?version=20). In my case I'm using Java JDK 21 unless Ghidra needs a higher version.
 
 [Alternative Download Link](https://www.oracle.com/es/java/technologies/downloads/)
 
