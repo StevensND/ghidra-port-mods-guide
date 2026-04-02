@@ -12,7 +12,11 @@ You can compile SwitchLoader in your local machine following this [tutorial](htt
 
 [Alternative Download Link](https://www.oracle.com/es/java/technologies/downloads/)
 
-- [Ryujinx](https://ryujinx.org/download/) to extract the ExeFS files. You can do it using Yuzu too but IMO **Ryujinx does a better job and it’s more faster**
+- [Ryubing](https://git.ryujinx.app/ryubing/canary/-/releases) to extract the ExeFS files. You can do it using Yuzu or Yuzu's forks too but IMO **Ryubing does a better job and it’s more faster**
+
+>[!WARNING]
+If you can't run Ryubing then I suggest you to use [Kenji-NX](https://git.ryujinx.app/kenji-nx/ryujinx/-/releases)
+
 - [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20) or any other Hex Editor like [this one](https://hexed.it/) (online version)
 - [NSCBuilder](https://github.com/julesontheroad/NSC_BUILDER/releases) to obtain our BID in a simpler way + your own `prod.keys`
 - [NotePad++](https://notepad-plus-plus.org/downloads/) It's not really necessary but **IMO it's more convenient compared to Windows Notepad**
